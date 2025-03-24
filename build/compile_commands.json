@@ -1,12 +1,6 @@
 [
 {
   "directory": "C:/Users/Vludo/Wormie/build",
-  "command": "C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\g++.exe  @CMakeFiles/Wormie.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Wormie.dir\\src\\KeyboardEvents.cc.obj -c C:\\Users\\Vludo\\Wormie\\src\\KeyboardEvents.cc",
-  "file": "C:/Users/Vludo/Wormie/src/KeyboardEvents.cc",
-  "output": "CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj"
-},
-{
-  "directory": "C:/Users/Vludo/Wormie/build",
   "command": "C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\g++.exe  @CMakeFiles/Wormie.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Wormie.dir\\src\\snakeClass.cc.obj -c C:\\Users\\Vludo\\Wormie\\src\\snakeClass.cc",
   "file": "C:/Users/Vludo/Wormie/src/snakeClass.cc",
   "output": "CMakeFiles/Wormie.dir/src/snakeClass.cc.obj"
@@ -16,6 +10,24 @@
   "command": "C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\g++.exe  @CMakeFiles/Wormie.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Wormie.dir\\src\\snake.cc.obj -c C:\\Users\\Vludo\\Wormie\\src\\snake.cc",
   "file": "C:/Users/Vludo/Wormie/src/snake.cc",
   "output": "CMakeFiles/Wormie.dir/src/snake.cc.obj"
+},
+{
+  "directory": "C:/Users/Vludo/Wormie/build",
+  "command": "C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\g++.exe  @CMakeFiles/Wormie.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Wormie.dir\\src\\tetorm.cc.obj -c C:\\Users\\Vludo\\Wormie\\src\\tetorm.cc",
+  "file": "C:/Users/Vludo/Wormie/src/tetorm.cc",
+  "output": "CMakeFiles/Wormie.dir/src/tetorm.cc.obj"
+},
+{
+  "directory": "C:/Users/Vludo/Wormie/build",
+  "command": "C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\g++.exe  @CMakeFiles/Wormie.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Wormie.dir\\src\\TetormBlocks.cc.obj -c C:\\Users\\Vludo\\Wormie\\src\\TetormBlocks.cc",
+  "file": "C:/Users/Vludo/Wormie/src/TetormBlocks.cc",
+  "output": "CMakeFiles/Wormie.dir/src/TetormBlocks.cc.obj"
+},
+{
+  "directory": "C:/Users/Vludo/Wormie/build",
+  "command": "C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\g++.exe  @CMakeFiles/Wormie.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Wormie.dir\\src\\KeyboardEvents.cc.obj -c C:\\Users\\Vludo\\Wormie\\src\\KeyboardEvents.cc",
+  "file": "C:/Users/Vludo/Wormie/src/KeyboardEvents.cc",
+  "output": "CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj"
 },
 {
   "directory": "C:/Users/Vludo/Wormie/build",

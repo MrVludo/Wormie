@@ -68,26 +68,11 @@ include CMakeFiles/Wormie.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Wormie.dir/flags.make
 
-CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj: CMakeFiles/Wormie.dir/flags.make
-CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj: CMakeFiles/Wormie.dir/includes_CXX.rsp
-CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj: C:/Users/Vludo/Wormie/src/KeyboardEvents.cc
-CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj: CMakeFiles/Wormie.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Vludo\Wormie\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj"
-	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj -MF CMakeFiles\Wormie.dir\src\KeyboardEvents.cc.obj.d -o CMakeFiles\Wormie.dir\src\KeyboardEvents.cc.obj -c C:\Users\Vludo\Wormie\src\KeyboardEvents.cc
-
-CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.i"
-	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Vludo\Wormie\src\KeyboardEvents.cc > CMakeFiles\Wormie.dir\src\KeyboardEvents.cc.i
-
-CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.s"
-	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Vludo\Wormie\src\KeyboardEvents.cc -o CMakeFiles\Wormie.dir\src\KeyboardEvents.cc.s
-
 CMakeFiles/Wormie.dir/src/snakeClass.cc.obj: CMakeFiles/Wormie.dir/flags.make
 CMakeFiles/Wormie.dir/src/snakeClass.cc.obj: CMakeFiles/Wormie.dir/includes_CXX.rsp
 CMakeFiles/Wormie.dir/src/snakeClass.cc.obj: C:/Users/Vludo/Wormie/src/snakeClass.cc
 CMakeFiles/Wormie.dir/src/snakeClass.cc.obj: CMakeFiles/Wormie.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Vludo\Wormie\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Wormie.dir/src/snakeClass.cc.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Vludo\Wormie\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Wormie.dir/src/snakeClass.cc.obj"
 	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Wormie.dir/src/snakeClass.cc.obj -MF CMakeFiles\Wormie.dir\src\snakeClass.cc.obj.d -o CMakeFiles\Wormie.dir\src\snakeClass.cc.obj -c C:\Users\Vludo\Wormie\src\snakeClass.cc
 
 CMakeFiles/Wormie.dir/src/snakeClass.cc.i: cmake_force
@@ -102,7 +87,7 @@ CMakeFiles/Wormie.dir/src/snake.cc.obj: CMakeFiles/Wormie.dir/flags.make
 CMakeFiles/Wormie.dir/src/snake.cc.obj: CMakeFiles/Wormie.dir/includes_CXX.rsp
 CMakeFiles/Wormie.dir/src/snake.cc.obj: C:/Users/Vludo/Wormie/src/snake.cc
 CMakeFiles/Wormie.dir/src/snake.cc.obj: CMakeFiles/Wormie.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Vludo\Wormie\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Wormie.dir/src/snake.cc.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Vludo\Wormie\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Wormie.dir/src/snake.cc.obj"
 	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Wormie.dir/src/snake.cc.obj -MF CMakeFiles\Wormie.dir\src\snake.cc.obj.d -o CMakeFiles\Wormie.dir\src\snake.cc.obj -c C:\Users\Vludo\Wormie\src\snake.cc
 
 CMakeFiles/Wormie.dir/src/snake.cc.i: cmake_force
@@ -113,11 +98,56 @@ CMakeFiles/Wormie.dir/src/snake.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Wormie.dir/src/snake.cc.s"
 	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Vludo\Wormie\src\snake.cc -o CMakeFiles\Wormie.dir\src\snake.cc.s
 
+CMakeFiles/Wormie.dir/src/tetorm.cc.obj: CMakeFiles/Wormie.dir/flags.make
+CMakeFiles/Wormie.dir/src/tetorm.cc.obj: CMakeFiles/Wormie.dir/includes_CXX.rsp
+CMakeFiles/Wormie.dir/src/tetorm.cc.obj: C:/Users/Vludo/Wormie/src/tetorm.cc
+CMakeFiles/Wormie.dir/src/tetorm.cc.obj: CMakeFiles/Wormie.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Vludo\Wormie\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Wormie.dir/src/tetorm.cc.obj"
+	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Wormie.dir/src/tetorm.cc.obj -MF CMakeFiles\Wormie.dir\src\tetorm.cc.obj.d -o CMakeFiles\Wormie.dir\src\tetorm.cc.obj -c C:\Users\Vludo\Wormie\src\tetorm.cc
+
+CMakeFiles/Wormie.dir/src/tetorm.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Wormie.dir/src/tetorm.cc.i"
+	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Vludo\Wormie\src\tetorm.cc > CMakeFiles\Wormie.dir\src\tetorm.cc.i
+
+CMakeFiles/Wormie.dir/src/tetorm.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Wormie.dir/src/tetorm.cc.s"
+	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Vludo\Wormie\src\tetorm.cc -o CMakeFiles\Wormie.dir\src\tetorm.cc.s
+
+CMakeFiles/Wormie.dir/src/TetormBlocks.cc.obj: CMakeFiles/Wormie.dir/flags.make
+CMakeFiles/Wormie.dir/src/TetormBlocks.cc.obj: CMakeFiles/Wormie.dir/includes_CXX.rsp
+CMakeFiles/Wormie.dir/src/TetormBlocks.cc.obj: C:/Users/Vludo/Wormie/src/TetormBlocks.cc
+CMakeFiles/Wormie.dir/src/TetormBlocks.cc.obj: CMakeFiles/Wormie.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Vludo\Wormie\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Wormie.dir/src/TetormBlocks.cc.obj"
+	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Wormie.dir/src/TetormBlocks.cc.obj -MF CMakeFiles\Wormie.dir\src\TetormBlocks.cc.obj.d -o CMakeFiles\Wormie.dir\src\TetormBlocks.cc.obj -c C:\Users\Vludo\Wormie\src\TetormBlocks.cc
+
+CMakeFiles/Wormie.dir/src/TetormBlocks.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Wormie.dir/src/TetormBlocks.cc.i"
+	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Vludo\Wormie\src\TetormBlocks.cc > CMakeFiles\Wormie.dir\src\TetormBlocks.cc.i
+
+CMakeFiles/Wormie.dir/src/TetormBlocks.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Wormie.dir/src/TetormBlocks.cc.s"
+	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Vludo\Wormie\src\TetormBlocks.cc -o CMakeFiles\Wormie.dir\src\TetormBlocks.cc.s
+
+CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj: CMakeFiles/Wormie.dir/flags.make
+CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj: CMakeFiles/Wormie.dir/includes_CXX.rsp
+CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj: C:/Users/Vludo/Wormie/src/KeyboardEvents.cc
+CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj: CMakeFiles/Wormie.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Vludo\Wormie\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj"
+	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj -MF CMakeFiles\Wormie.dir\src\KeyboardEvents.cc.obj.d -o CMakeFiles\Wormie.dir\src\KeyboardEvents.cc.obj -c C:\Users\Vludo\Wormie\src\KeyboardEvents.cc
+
+CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.i"
+	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Vludo\Wormie\src\KeyboardEvents.cc > CMakeFiles\Wormie.dir\src\KeyboardEvents.cc.i
+
+CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.s"
+	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Vludo\Wormie\src\KeyboardEvents.cc -o CMakeFiles\Wormie.dir\src\KeyboardEvents.cc.s
+
 CMakeFiles/Wormie.dir/src/main.cc.obj: CMakeFiles/Wormie.dir/flags.make
 CMakeFiles/Wormie.dir/src/main.cc.obj: CMakeFiles/Wormie.dir/includes_CXX.rsp
 CMakeFiles/Wormie.dir/src/main.cc.obj: C:/Users/Vludo/Wormie/src/main.cc
 CMakeFiles/Wormie.dir/src/main.cc.obj: CMakeFiles/Wormie.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Vludo\Wormie\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Wormie.dir/src/main.cc.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Vludo\Wormie\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Wormie.dir/src/main.cc.obj"
 	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Wormie.dir/src/main.cc.obj -MF CMakeFiles\Wormie.dir\src\main.cc.obj.d -o CMakeFiles\Wormie.dir\src\main.cc.obj -c C:\Users\Vludo\Wormie\src\main.cc
 
 CMakeFiles/Wormie.dir/src/main.cc.i: cmake_force
@@ -130,23 +160,27 @@ CMakeFiles/Wormie.dir/src/main.cc.s: cmake_force
 
 # Object files for target Wormie
 Wormie_OBJECTS = \
-"CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj" \
 "CMakeFiles/Wormie.dir/src/snakeClass.cc.obj" \
 "CMakeFiles/Wormie.dir/src/snake.cc.obj" \
+"CMakeFiles/Wormie.dir/src/tetorm.cc.obj" \
+"CMakeFiles/Wormie.dir/src/TetormBlocks.cc.obj" \
+"CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj" \
 "CMakeFiles/Wormie.dir/src/main.cc.obj"
 
 # External object files for target Wormie
 Wormie_EXTERNAL_OBJECTS =
 
-Wormie.exe: CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj
 Wormie.exe: CMakeFiles/Wormie.dir/src/snakeClass.cc.obj
 Wormie.exe: CMakeFiles/Wormie.dir/src/snake.cc.obj
+Wormie.exe: CMakeFiles/Wormie.dir/src/tetorm.cc.obj
+Wormie.exe: CMakeFiles/Wormie.dir/src/TetormBlocks.cc.obj
+Wormie.exe: CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj
 Wormie.exe: CMakeFiles/Wormie.dir/src/main.cc.obj
 Wormie.exe: CMakeFiles/Wormie.dir/build.make
 Wormie.exe: CMakeFiles/Wormie.dir/linkLibs.rsp
 Wormie.exe: CMakeFiles/Wormie.dir/objects1.rsp
 Wormie.exe: CMakeFiles/Wormie.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Vludo\Wormie\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Wormie.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Vludo\Wormie\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Wormie.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Wormie.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

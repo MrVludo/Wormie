@@ -7,6 +7,7 @@
 #include <utility>
 #include <chrono>
 #include <fstream>
+#include <array>
 
 // Game Data:
 extern std::ifstream GameDataFileR;
@@ -22,8 +23,13 @@ extern bool closeWindow;
 
 extern std::vector<Vector4> buttons;
 
+extern int gridHeight;
+extern int gridWidth;
+extern bool showGrid;
+
 void KeyboardEvents();
 
 void play_snake(int gridR);
+void play_tetorm();
 
 void LobbyKeyboard();

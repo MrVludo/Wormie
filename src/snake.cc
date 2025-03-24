@@ -5,8 +5,6 @@ bool showGrid = false;
 bool snakeExit = false;
 int score;
 int bestScore[3];
-int gridHeight = 12;
-int gridWidth = 15;
 
 Snake snake1;
 std::pair<int,int> apple;
@@ -55,7 +53,7 @@ void play_snake(int gridR) {
         // Game field:
         Vector2 fieldSize = {10.0f/8.0f * 0.8f * screenHeight, 0.8f * screenHeight};
         Vector2 fieldPosition = {(screenWidth - fieldSize.x) / 2, 15 * heightScale};
-        DrawRectangle(fieldPosition.x, fieldPosition.y, fieldSize.x, fieldSize.y, DARKGRAY);
+        DrawRectangleV(fieldPosition, fieldSize, DARKGRAY);
 
 
         // Snake:

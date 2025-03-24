@@ -152,6 +152,30 @@ src/KeyboardEvents.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wormie.dir\build.make CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.s
 .PHONY : src/KeyboardEvents.cc.s
 
+src/TetormBlocks.obj: src/TetormBlocks.cc.obj
+.PHONY : src/TetormBlocks.obj
+
+# target to build an object file
+src/TetormBlocks.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wormie.dir\build.make CMakeFiles/Wormie.dir/src/TetormBlocks.cc.obj
+.PHONY : src/TetormBlocks.cc.obj
+
+src/TetormBlocks.i: src/TetormBlocks.cc.i
+.PHONY : src/TetormBlocks.i
+
+# target to preprocess a source file
+src/TetormBlocks.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wormie.dir\build.make CMakeFiles/Wormie.dir/src/TetormBlocks.cc.i
+.PHONY : src/TetormBlocks.cc.i
+
+src/TetormBlocks.s: src/TetormBlocks.cc.s
+.PHONY : src/TetormBlocks.s
+
+# target to generate assembly for a file
+src/TetormBlocks.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wormie.dir\build.make CMakeFiles/Wormie.dir/src/TetormBlocks.cc.s
+.PHONY : src/TetormBlocks.cc.s
+
 src/main.obj: src/main.cc.obj
 .PHONY : src/main.obj
 
@@ -224,6 +248,30 @@ src/snakeClass.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wormie.dir\build.make CMakeFiles/Wormie.dir/src/snakeClass.cc.s
 .PHONY : src/snakeClass.cc.s
 
+src/tetorm.obj: src/tetorm.cc.obj
+.PHONY : src/tetorm.obj
+
+# target to build an object file
+src/tetorm.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wormie.dir\build.make CMakeFiles/Wormie.dir/src/tetorm.cc.obj
+.PHONY : src/tetorm.cc.obj
+
+src/tetorm.i: src/tetorm.cc.i
+.PHONY : src/tetorm.i
+
+# target to preprocess a source file
+src/tetorm.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wormie.dir\build.make CMakeFiles/Wormie.dir/src/tetorm.cc.i
+.PHONY : src/tetorm.cc.i
+
+src/tetorm.s: src/tetorm.cc.s
+.PHONY : src/tetorm.s
+
+# target to generate assembly for a file
+src/tetorm.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wormie.dir\build.make CMakeFiles/Wormie.dir/src/tetorm.cc.s
+.PHONY : src/tetorm.cc.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -236,6 +284,9 @@ help:
 	@echo ... src/KeyboardEvents.obj
 	@echo ... src/KeyboardEvents.i
 	@echo ... src/KeyboardEvents.s
+	@echo ... src/TetormBlocks.obj
+	@echo ... src/TetormBlocks.i
+	@echo ... src/TetormBlocks.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
@@ -245,6 +296,9 @@ help:
 	@echo ... src/snakeClass.obj
 	@echo ... src/snakeClass.i
 	@echo ... src/snakeClass.s
+	@echo ... src/tetorm.obj
+	@echo ... src/tetorm.i
+	@echo ... src/tetorm.s
 .PHONY : help
 
 

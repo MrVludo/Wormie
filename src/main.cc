@@ -10,6 +10,9 @@ bool closeWindow = false;
 // Button: posX, posY, width, height 
 std::vector<Vector4> buttons = {{0, 0, 0, 0}, {0, 0, 0, 0}};
 
+int gridHeight = 12;
+int gridWidth = 15;
+
 int main() {
     SetConfigFlags(FLAG_WINDOW_RESIZABLE);
     InitWindow(800, 600, "Wormie (by Vludo)");

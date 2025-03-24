@@ -1,12 +1,9 @@
 #pragma once
 #include "config.hh"
 
-extern bool showGrid;
 extern int score;
 extern int bestScore1;
 extern int bestScore2;
-extern int gridHeight;
-extern int gridWidth;
 
 enum Direction {UP, DOWN, LEFT, RIGHT, WAIT};
 

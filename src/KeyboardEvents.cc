@@ -1,5 +1,6 @@
 #include "config.hh"
 #include "snake.hh"
+#include "tetorm.hh"
 
 void KeyboardEvents() {
     if (IsKeyDown(KEY_LEFT_CONTROL) && IsKeyDown(KEY_W))
@@ -13,6 +14,8 @@ void LobbyKeyboard() {
         play_snake(1);
     if (IsKeyPressed(KEY_TWO) || IsKeyPressed(KEY_KP_2))
         play_snake(2);
+    if (IsKeyPressed(KEY_THREE) || IsKeyPressed(KEY_KP_3)) 
+        play_tetorm();
     if (IsMouseButtonPressed(MOUSE_BUTTON_LEFT)) {
         Vector2 mousePosition = GetMousePosition();
         for (int i = 0; i < buttons.size(); ++i) {
@@ -75,5 +78,24 @@ void SnakeKeyboard() {
         snake1 = Snake();
         score = 0;
         apple = make_apple();
+    }
+}
+
+void TetormKeyboard() {
+    // Movement:
+    if (IsKeyPressed(KEY_UP) || IsKeyPressed(KEY_W)) {
+        block.rotate();
+        if (block.checkCollision()) block.rotateBack();
+    }
+    if (IsKeyPressed(KEY_DOWN) || IsKeyPressed(KEY_S)) {
+        
+    }
+    if (IsKeyPressed(KEY_LEFT) || IsKeyPressed(KEY_A) || IsKeyPressedRepeat(KEY_LEFT) || IsKeyPressedRepeat(KEY_A)) {
+        block.x -= 1;
+        if (block.checkCollision()) block.x += 1;
+    }
+    if (IsKeyPressed(KEY_RIGHT) || IsKeyPressed(KEY_D) || IsKeyPressedRepeat(KEY_RIGHT) || IsKeyPressedRepeat(KEY_D)) {
+        block.x += 1;
+        if (block.checkCollision()) block.x -= 1;
     }
 }
