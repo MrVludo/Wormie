@@ -52,10 +52,10 @@ RM = C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Vludo\raylibproj
+CMAKE_SOURCE_DIR = C:\Users\Vludo\Wormie
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Vludo\raylibproj\build
+CMAKE_BINARY_DIR = C:\Users\Vludo\Wormie\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Wormie.dir/depend.make
@@ -70,63 +70,63 @@ include CMakeFiles/Wormie.dir/flags.make
 
 CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj: CMakeFiles/Wormie.dir/flags.make
 CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj: CMakeFiles/Wormie.dir/includes_CXX.rsp
-CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj: C:/Users/Vludo/raylibproj/src/KeyboardEvents.cc
+CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj: C:/Users/Vludo/Wormie/src/KeyboardEvents.cc
 CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj: CMakeFiles/Wormie.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Vludo\raylibproj\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj"
-	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj -MF CMakeFiles\Wormie.dir\src\KeyboardEvents.cc.obj.d -o CMakeFiles\Wormie.dir\src\KeyboardEvents.cc.obj -c C:\Users\Vludo\raylibproj\src\KeyboardEvents.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Vludo\Wormie\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj"
+	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj -MF CMakeFiles\Wormie.dir\src\KeyboardEvents.cc.obj.d -o CMakeFiles\Wormie.dir\src\KeyboardEvents.cc.obj -c C:\Users\Vludo\Wormie\src\KeyboardEvents.cc
 
 CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.i"
-	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Vludo\raylibproj\src\KeyboardEvents.cc > CMakeFiles\Wormie.dir\src\KeyboardEvents.cc.i
+	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Vludo\Wormie\src\KeyboardEvents.cc > CMakeFiles\Wormie.dir\src\KeyboardEvents.cc.i
 
 CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.s"
-	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Vludo\raylibproj\src\KeyboardEvents.cc -o CMakeFiles\Wormie.dir\src\KeyboardEvents.cc.s
+	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Vludo\Wormie\src\KeyboardEvents.cc -o CMakeFiles\Wormie.dir\src\KeyboardEvents.cc.s
 
 CMakeFiles/Wormie.dir/src/snakeClass.cc.obj: CMakeFiles/Wormie.dir/flags.make
 CMakeFiles/Wormie.dir/src/snakeClass.cc.obj: CMakeFiles/Wormie.dir/includes_CXX.rsp
-CMakeFiles/Wormie.dir/src/snakeClass.cc.obj: C:/Users/Vludo/raylibproj/src/snakeClass.cc
+CMakeFiles/Wormie.dir/src/snakeClass.cc.obj: C:/Users/Vludo/Wormie/src/snakeClass.cc
 CMakeFiles/Wormie.dir/src/snakeClass.cc.obj: CMakeFiles/Wormie.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Vludo\raylibproj\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Wormie.dir/src/snakeClass.cc.obj"
-	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Wormie.dir/src/snakeClass.cc.obj -MF CMakeFiles\Wormie.dir\src\snakeClass.cc.obj.d -o CMakeFiles\Wormie.dir\src\snakeClass.cc.obj -c C:\Users\Vludo\raylibproj\src\snakeClass.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Vludo\Wormie\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Wormie.dir/src/snakeClass.cc.obj"
+	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Wormie.dir/src/snakeClass.cc.obj -MF CMakeFiles\Wormie.dir\src\snakeClass.cc.obj.d -o CMakeFiles\Wormie.dir\src\snakeClass.cc.obj -c C:\Users\Vludo\Wormie\src\snakeClass.cc
 
 CMakeFiles/Wormie.dir/src/snakeClass.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Wormie.dir/src/snakeClass.cc.i"
-	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Vludo\raylibproj\src\snakeClass.cc > CMakeFiles\Wormie.dir\src\snakeClass.cc.i
+	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Vludo\Wormie\src\snakeClass.cc > CMakeFiles\Wormie.dir\src\snakeClass.cc.i
 
 CMakeFiles/Wormie.dir/src/snakeClass.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Wormie.dir/src/snakeClass.cc.s"
-	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Vludo\raylibproj\src\snakeClass.cc -o CMakeFiles\Wormie.dir\src\snakeClass.cc.s
+	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Vludo\Wormie\src\snakeClass.cc -o CMakeFiles\Wormie.dir\src\snakeClass.cc.s
 
 CMakeFiles/Wormie.dir/src/snake.cc.obj: CMakeFiles/Wormie.dir/flags.make
 CMakeFiles/Wormie.dir/src/snake.cc.obj: CMakeFiles/Wormie.dir/includes_CXX.rsp
-CMakeFiles/Wormie.dir/src/snake.cc.obj: C:/Users/Vludo/raylibproj/src/snake.cc
+CMakeFiles/Wormie.dir/src/snake.cc.obj: C:/Users/Vludo/Wormie/src/snake.cc
 CMakeFiles/Wormie.dir/src/snake.cc.obj: CMakeFiles/Wormie.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Vludo\raylibproj\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Wormie.dir/src/snake.cc.obj"
-	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Wormie.dir/src/snake.cc.obj -MF CMakeFiles\Wormie.dir\src\snake.cc.obj.d -o CMakeFiles\Wormie.dir\src\snake.cc.obj -c C:\Users\Vludo\raylibproj\src\snake.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Vludo\Wormie\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Wormie.dir/src/snake.cc.obj"
+	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Wormie.dir/src/snake.cc.obj -MF CMakeFiles\Wormie.dir\src\snake.cc.obj.d -o CMakeFiles\Wormie.dir\src\snake.cc.obj -c C:\Users\Vludo\Wormie\src\snake.cc
 
 CMakeFiles/Wormie.dir/src/snake.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Wormie.dir/src/snake.cc.i"
-	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Vludo\raylibproj\src\snake.cc > CMakeFiles\Wormie.dir\src\snake.cc.i
+	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Vludo\Wormie\src\snake.cc > CMakeFiles\Wormie.dir\src\snake.cc.i
 
 CMakeFiles/Wormie.dir/src/snake.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Wormie.dir/src/snake.cc.s"
-	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Vludo\raylibproj\src\snake.cc -o CMakeFiles\Wormie.dir\src\snake.cc.s
+	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Vludo\Wormie\src\snake.cc -o CMakeFiles\Wormie.dir\src\snake.cc.s
 
 CMakeFiles/Wormie.dir/src/main.cc.obj: CMakeFiles/Wormie.dir/flags.make
 CMakeFiles/Wormie.dir/src/main.cc.obj: CMakeFiles/Wormie.dir/includes_CXX.rsp
-CMakeFiles/Wormie.dir/src/main.cc.obj: C:/Users/Vludo/raylibproj/src/main.cc
+CMakeFiles/Wormie.dir/src/main.cc.obj: C:/Users/Vludo/Wormie/src/main.cc
 CMakeFiles/Wormie.dir/src/main.cc.obj: CMakeFiles/Wormie.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Vludo\raylibproj\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Wormie.dir/src/main.cc.obj"
-	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Wormie.dir/src/main.cc.obj -MF CMakeFiles\Wormie.dir\src\main.cc.obj.d -o CMakeFiles\Wormie.dir\src\main.cc.obj -c C:\Users\Vludo\raylibproj\src\main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Vludo\Wormie\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Wormie.dir/src/main.cc.obj"
+	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Wormie.dir/src/main.cc.obj -MF CMakeFiles\Wormie.dir\src\main.cc.obj.d -o CMakeFiles\Wormie.dir\src\main.cc.obj -c C:\Users\Vludo\Wormie\src\main.cc
 
 CMakeFiles/Wormie.dir/src/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Wormie.dir/src/main.cc.i"
-	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Vludo\raylibproj\src\main.cc > CMakeFiles\Wormie.dir\src\main.cc.i
+	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Vludo\Wormie\src\main.cc > CMakeFiles\Wormie.dir\src\main.cc.i
 
 CMakeFiles/Wormie.dir/src/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Wormie.dir/src/main.cc.s"
-	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Vludo\raylibproj\src\main.cc -o CMakeFiles\Wormie.dir\src\main.cc.s
+	C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Vludo\Wormie\src\main.cc -o CMakeFiles\Wormie.dir\src\main.cc.s
 
 # Object files for target Wormie
 Wormie_OBJECTS = \
@@ -146,7 +146,7 @@ Wormie.exe: CMakeFiles/Wormie.dir/build.make
 Wormie.exe: CMakeFiles/Wormie.dir/linkLibs.rsp
 Wormie.exe: CMakeFiles/Wormie.dir/objects1.rsp
 Wormie.exe: CMakeFiles/Wormie.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Vludo\raylibproj\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Wormie.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Vludo\Wormie\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Wormie.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Wormie.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -158,6 +158,6 @@ CMakeFiles/Wormie.dir/clean:
 .PHONY : CMakeFiles/Wormie.dir/clean
 
 CMakeFiles/Wormie.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Vludo\raylibproj C:\Users\Vludo\raylibproj C:\Users\Vludo\raylibproj\build C:\Users\Vludo\raylibproj\build C:\Users\Vludo\raylibproj\build\CMakeFiles\Wormie.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Vludo\Wormie C:\Users\Vludo\Wormie C:\Users\Vludo\Wormie\build C:\Users\Vludo\Wormie\build C:\Users\Vludo\Wormie\build\CMakeFiles\Wormie.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Wormie.dir/depend
 

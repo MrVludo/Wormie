@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Vludo/raylibproj
+# Install script for directory: C:/Users/Vludo/Wormie
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/MyRaylibGame")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Wormie")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Vludo/raylibproj/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Vludo/Wormie/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

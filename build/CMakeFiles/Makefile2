@@ -53,10 +53,10 @@ RM = C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Vludo\raylibproj
+CMAKE_SOURCE_DIR = C:\Users\Vludo\Wormie
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Vludo\raylibproj\build
+CMAKE_BINARY_DIR = C:\Users\Vludo\Wormie\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -80,14 +80,14 @@ clean: CMakeFiles/Wormie.dir/clean
 CMakeFiles/Wormie.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wormie.dir\build.make CMakeFiles/Wormie.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wormie.dir\build.make CMakeFiles/Wormie.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Vludo\raylibproj\build\CMakeFiles --progress-num=1,2,3,4,5 "Built target Wormie"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Vludo\Wormie\build\CMakeFiles --progress-num=1,2,3,4,5 "Built target Wormie"
 .PHONY : CMakeFiles/Wormie.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Wormie.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Vludo\raylibproj\build\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Vludo\Wormie\build\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Wormie.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Vludo\raylibproj\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Vludo\Wormie\build\CMakeFiles 0
 .PHONY : CMakeFiles/Wormie.dir/rule
 
 # Convenience name for target.

@@ -1,7 +1,7 @@
 CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj: \
- C:\Users\Vludo\raylibproj\src\KeyboardEvents.cc \
- C:\Users\Vludo\raylibproj\src\config.hh \
- C:/Users/Vludo/raylibproj/raylib/include/raylib.h \
+ C:\Users\Vludo\Wormie\src\KeyboardEvents.cc \
+ C:\Users\Vludo\Wormie\src\config.hh \
+ C:/Users/Vludo/Wormie/raylib/include/raylib.h \
  c:\users\vludo\appdata\roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\lib\gcc\x86_64-w64-mingw32\12.3.0\include\stdarg.h \
  c:\users\vludo\appdata\roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\x86_64-w64-mingw32\include\stdarg.h \
  c:\users\vludo\appdata\roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\x86_64-w64-mingw32\include\_mingw_stdarg.h \
@@ -158,4 +158,4 @@ CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj: \
  c:\users\vludo\appdata\roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\include\c++\12.3.0\x86_64-w64-mingw32\bits\basic_file.h \
  c:\users\vludo\appdata\roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\include\c++\12.3.0\x86_64-w64-mingw32\bits\c++io.h \
  c:\users\vludo\appdata\roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\include\c++\12.3.0\bits\fstream.tcc \
- C:\Users\Vludo\raylibproj\src\snake.hh
+ C:\Users\Vludo\Wormie\src\snake.hh

@@ -66,7 +66,7 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/Vludo/raylibproj/raylib/include"
+					"path" : "C:/Users/Vludo/Wormie/raylib/include"
 				}
 			],
 			"language" : "CXX",
@@ -102,7 +102,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LC:\\Users\\Vludo\\raylibproj\\raylib\\lib",
+				"fragment" : "-LC:\\Users\\Vludo\\Wormie\\raylib\\lib",
 				"role" : "libraryPath"
 			},
 			{

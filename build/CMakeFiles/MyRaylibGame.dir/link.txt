@@ -1,3 +1,0 @@
-C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\cmake.exe -E rm -f CMakeFiles\MyRaylibGame.dir/objects.a
-C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\ar.exe qc CMakeFiles\MyRaylibGame.dir/objects.a @CMakeFiles\MyRaylibGame.dir\objects1.rsp
-C:\Users\Vludo\AppData\Roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\bin\g++.exe -g -mwindows -Wl,--whole-archive CMakeFiles\MyRaylibGame.dir/objects.a -Wl,--no-whole-archive -o MyRaylibGame.exe -Wl,--out-implib,libMyRaylibGame.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MyRaylibGame.dir\linkLibs.rsp
