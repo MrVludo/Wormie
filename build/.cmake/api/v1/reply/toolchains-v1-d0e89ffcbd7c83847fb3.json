@@ -1,0 +1,139 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/lib/gcc/x86_64-w64-mingw32/12.3.0/include",
+						"C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/include",
+						"C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/lib/gcc/x86_64-w64-mingw32/12.3.0/include-fixed",
+						"C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/lib/gcc/x86_64-w64-mingw32/12.3.0",
+						"C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/lib/gcc",
+						"C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/x86_64-w64-mingw32/lib",
+						"C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/gcc.exe",
+				"version" : "12.3.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/include/c++/12.3.0",
+						"C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/include/c++/12.3.0/x86_64-w64-mingw32",
+						"C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/include/c++/12.3.0/backward",
+						"C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/lib/gcc/x86_64-w64-mingw32/12.3.0/include",
+						"C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/include",
+						"C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/lib/gcc/x86_64-w64-mingw32/12.3.0/include-fixed",
+						"C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/lib/gcc/x86_64-w64-mingw32/12.3.0",
+						"C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/lib/gcc",
+						"C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/x86_64-w64-mingw32/lib",
+						"C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"mingw32",
+						"gcc_s",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc_s",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/g++.exe",
+				"version" : "12.3.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

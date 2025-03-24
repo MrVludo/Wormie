@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/Vludo/raylibproj/build",
+  "command": "C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\g++.exe  @CMakeFiles/Wormie.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Wormie.dir\\src\\KeyboardEvents.cc.obj -c C:\\Users\\Vludo\\raylibproj\\src\\KeyboardEvents.cc",
+  "file": "C:/Users/Vludo/raylibproj/src/KeyboardEvents.cc",
+  "output": "CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj"
+},
+{
+  "directory": "C:/Users/Vludo/raylibproj/build",
+  "command": "C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\g++.exe  @CMakeFiles/Wormie.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Wormie.dir\\src\\snakeClass.cc.obj -c C:\\Users\\Vludo\\raylibproj\\src\\snakeClass.cc",
+  "file": "C:/Users/Vludo/raylibproj/src/snakeClass.cc",
+  "output": "CMakeFiles/Wormie.dir/src/snakeClass.cc.obj"
+},
+{
+  "directory": "C:/Users/Vludo/raylibproj/build",
+  "command": "C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\g++.exe  @CMakeFiles/Wormie.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Wormie.dir\\src\\snake.cc.obj -c C:\\Users\\Vludo\\raylibproj\\src\\snake.cc",
+  "file": "C:/Users/Vludo/raylibproj/src/snake.cc",
+  "output": "CMakeFiles/Wormie.dir/src/snake.cc.obj"
+},
+{
+  "directory": "C:/Users/Vludo/raylibproj/build",
+  "command": "C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\g++.exe  @CMakeFiles/Wormie.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\Wormie.dir\\src\\main.cc.obj -c C:\\Users\\Vludo\\raylibproj\\src\\main.cc",
+  "file": "C:/Users/Vludo/raylibproj/src/main.cc",
+  "output": "CMakeFiles/Wormie.dir/src/main.cc.obj"
+}
+]
