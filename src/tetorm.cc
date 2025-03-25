@@ -5,16 +5,19 @@ std::vector<std::vector<int>> fieldArr;
 
 bool tetormExit = false;
 extern bool showGrid;
+double startTime;
 tBlock block;
 
 void play_tetorm() {
     gridHeight = 18;
     gridWidth = 10;
+    fieldArr.clear();
     for (int i = 0; i < gridWidth; ++i) {
         fieldArr.push_back({});
         for (int j = 0; j < gridHeight; ++j)
             fieldArr[i].push_back(0);
     }
+    startTime = GetTime();
     block = tBlock();
     while (!closeWindow && !WindowShouldClose() && !tetormExit) {
         KeyboardEvents();
@@ -44,13 +47,12 @@ void play_tetorm() {
         // Falling block:
         auto blockArr = block.getArr();
         
-        if (block.isFalling && GetTime() - block.prevMoveTime >= 10./block.speed) {
+        if (GetTime() - block.prevMoveTime >= 10./block.speed) {
             block.fall();
-            if (block.checkCollision()) {
-                block.isFalling = false;
-                block.y--;
+            if (!block.isFalling && (GetTime() - block.prevChangeTime >= 10./block.speed 
+                || GetTime() - block.prevMoveTime >= 3 * 10./block.speed)) {
                 block.sendToField();
-                block = tBlock();
+                block.makeNew();
             }
         }
         

@@ -2,26 +2,30 @@
 #include "config.hh"
 
 extern std::vector<std::vector<int>> fieldArr;
+extern double startTime;
 
 class tBlock {
 private:
+public:
     int id;
     int rotation;
-public:
     int x;
     int y;
     Color color;
     double prevMoveTime;
+    double prevChangeTime;
     float speed; // moves in 10 sec
     bool isFalling;
     tBlock();
     void rotate();
     void rotateBack();
     void fall();
+    void shift();
     void sendToField();
     std::vector<std::vector<bool>> getArr();
     bool checkCollision();
     static Color idToColor(int blockId);
+    void makeNew();
 };
 
 extern tBlock block;

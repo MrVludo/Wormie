@@ -7,13 +7,14 @@ tBlock::tBlock() {
     color = idToColor(id);
     x = 3;
     y = -1;
-    prevMoveTime = GetTime();
-    speed = 20;
+    prevChangeTime = prevMoveTime = GetTime();
+    speed = 20 + ((int)((GetTime()-startTime)/5));
     isFalling = true;
 }
 
 void tBlock::rotate() {
     rotation = (rotation+1) % 4;
+    prevChangeTime = GetTime();
 }
 void tBlock::rotateBack() {
     rotation = (rotation+3) % 4;
@@ -32,7 +33,18 @@ std::vector<std::vector<bool>> tBlock::getArr() {
 
 void tBlock::fall() {
     y++;
-    prevMoveTime = GetTime();
+    if (checkCollision()) {
+        isFalling = false;
+        y--;
+    }
+    else {
+        isFalling = true;
+        prevChangeTime = prevMoveTime = GetTime();
+    }
+}
+
+void tBlock::shift() {
+    while(isFalling) fall();
 }
 
 void tBlock::sendToField() {
@@ -60,14 +72,19 @@ bool tBlock::checkCollision() {
 }
 
 Color tBlock::idToColor(int blockId) {
-    switch (blockId) {
-    case 1:
-        return GREEN;
-    case 2:
-        return RED;
-    case 3:
-        return YELLOW;
-    default:
-        return WHITE;
-    }
+    Color colorArr[8] =
+    {
+        WHITE, 
+        GREEN, RED,
+        ORANGE, BLUE,
+        VIOLET, SKYBLUE, //Color{173, 216, 230, 255}, 
+        YELLOW
+    };
+    if (blockId > 0 && blockId < 8) 
+        return colorArr[blockId];
+    return WHITE;
+}
+void tBlock::makeNew() {
+    int prevId = id;
+    while (id == prevId) block = tBlock();
 }

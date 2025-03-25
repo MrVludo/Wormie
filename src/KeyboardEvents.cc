@@ -87,15 +87,22 @@ void TetormKeyboard() {
         block.rotate();
         if (block.checkCollision()) block.rotateBack();
     }
-    if (IsKeyPressed(KEY_DOWN) || IsKeyPressed(KEY_S)) {
-        
+    if (IsKeyPressed(KEY_DOWN) || IsKeyPressed(KEY_S) || IsKeyPressedRepeat(KEY_DOWN) || IsKeyPressedRepeat(KEY_S)) {
+        block.fall();
     }
     if (IsKeyPressed(KEY_LEFT) || IsKeyPressed(KEY_A) || IsKeyPressedRepeat(KEY_LEFT) || IsKeyPressedRepeat(KEY_A)) {
         block.x -= 1;
         if (block.checkCollision()) block.x += 1;
+        else block.prevChangeTime = GetTime();
     }
     if (IsKeyPressed(KEY_RIGHT) || IsKeyPressed(KEY_D) || IsKeyPressedRepeat(KEY_RIGHT) || IsKeyPressedRepeat(KEY_D)) {
         block.x += 1;
         if (block.checkCollision()) block.x -= 1;
+        else block.prevChangeTime = GetTime();
+    }
+    if (IsKeyPressed(KEY_SPACE)) {
+        block.shift();
+        block.sendToField();
+        block.makeNew();
     }
 }
