@@ -63,21 +63,88 @@ CMAKE_BINARY_DIR = C:\Users\Vludo\Wormie\build
 
 # The main recursive "all" target.
 all: CMakeFiles/Wormie.dir/all
+all: external/raylib/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: external/raylib/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Wormie.dir/clean
+clean: external/raylib/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory external/raylib
+
+# Recursive "all" directory target.
+external/raylib/all: external/raylib/raylib/all
+.PHONY : external/raylib/all
+
+# Recursive "preinstall" directory target.
+external/raylib/preinstall: external/raylib/raylib/preinstall
+.PHONY : external/raylib/preinstall
+
+# Recursive "clean" directory target.
+external/raylib/clean: external/raylib/CMakeFiles/uninstall.dir/clean
+external/raylib/clean: external/raylib/raylib/clean
+.PHONY : external/raylib/clean
+
+#=============================================================================
+# Directory level rules for directory external/raylib/raylib
+
+# Recursive "all" directory target.
+external/raylib/raylib/all: external/raylib/raylib/CMakeFiles/raylib.dir/all
+external/raylib/raylib/all: external/raylib/raylib/external/glfw/all
+.PHONY : external/raylib/raylib/all
+
+# Recursive "preinstall" directory target.
+external/raylib/raylib/preinstall: external/raylib/raylib/external/glfw/preinstall
+.PHONY : external/raylib/raylib/preinstall
+
+# Recursive "clean" directory target.
+external/raylib/raylib/clean: external/raylib/raylib/CMakeFiles/raylib.dir/clean
+external/raylib/raylib/clean: external/raylib/raylib/external/glfw/clean
+.PHONY : external/raylib/raylib/clean
+
+#=============================================================================
+# Directory level rules for directory external/raylib/raylib/external/glfw
+
+# Recursive "all" directory target.
+external/raylib/raylib/external/glfw/all: external/raylib/raylib/external/glfw/src/all
+.PHONY : external/raylib/raylib/external/glfw/all
+
+# Recursive "preinstall" directory target.
+external/raylib/raylib/external/glfw/preinstall: external/raylib/raylib/external/glfw/src/preinstall
+.PHONY : external/raylib/raylib/external/glfw/preinstall
+
+# Recursive "clean" directory target.
+external/raylib/raylib/external/glfw/clean: external/raylib/raylib/external/glfw/src/clean
+.PHONY : external/raylib/raylib/external/glfw/clean
+
+#=============================================================================
+# Directory level rules for directory external/raylib/raylib/external/glfw/src
+
+# Recursive "all" directory target.
+external/raylib/raylib/external/glfw/src/all: external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/all
+.PHONY : external/raylib/raylib/external/glfw/src/all
+
+# Recursive "preinstall" directory target.
+external/raylib/raylib/external/glfw/src/preinstall:
+.PHONY : external/raylib/raylib/external/glfw/src/preinstall
+
+# Recursive "clean" directory target.
+external/raylib/raylib/external/glfw/src/clean: external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/clean
+external/raylib/raylib/external/glfw/src/clean: external/raylib/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/clean
+.PHONY : external/raylib/raylib/external/glfw/src/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Wormie.dir
 
 # All Build rule for target.
-CMakeFiles/Wormie.dir/all:
+CMakeFiles/Wormie.dir/all: external/raylib/raylib/CMakeFiles/raylib.dir/all
+CMakeFiles/Wormie.dir/all: external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wormie.dir\build.make CMakeFiles/Wormie.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wormie.dir\build.make CMakeFiles/Wormie.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Vludo\Wormie\build\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target Wormie"
@@ -85,7 +152,7 @@ CMakeFiles/Wormie.dir/all:
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Wormie.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Vludo\Wormie\build\CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Vludo\Wormie\build\CMakeFiles 36
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Wormie.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Vludo\Wormie\build\CMakeFiles 0
 .PHONY : CMakeFiles/Wormie.dir/rule
@@ -98,6 +165,110 @@ Wormie: CMakeFiles/Wormie.dir/rule
 CMakeFiles/Wormie.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wormie.dir\build.make CMakeFiles/Wormie.dir/clean
 .PHONY : CMakeFiles/Wormie.dir/clean
+
+#=============================================================================
+# Target rules for target external/raylib/CMakeFiles/uninstall.dir
+
+# All Build rule for target.
+external/raylib/CMakeFiles/uninstall.dir/all:
+	$(MAKE) $(MAKESILENT) -f external\raylib\CMakeFiles\uninstall.dir\build.make external/raylib/CMakeFiles/uninstall.dir/depend
+	$(MAKE) $(MAKESILENT) -f external\raylib\CMakeFiles\uninstall.dir\build.make external/raylib/CMakeFiles/uninstall.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Vludo\Wormie\build\CMakeFiles --progress-num= "Built target uninstall"
+.PHONY : external/raylib/CMakeFiles/uninstall.dir/all
+
+# Build rule for subdir invocation for target.
+external/raylib/CMakeFiles/uninstall.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Vludo\Wormie\build\CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/raylib/CMakeFiles/uninstall.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Vludo\Wormie\build\CMakeFiles 0
+.PHONY : external/raylib/CMakeFiles/uninstall.dir/rule
+
+# Convenience name for target.
+uninstall: external/raylib/CMakeFiles/uninstall.dir/rule
+.PHONY : uninstall
+
+# clean rule for target.
+external/raylib/CMakeFiles/uninstall.dir/clean:
+	$(MAKE) $(MAKESILENT) -f external\raylib\CMakeFiles\uninstall.dir\build.make external/raylib/CMakeFiles/uninstall.dir/clean
+.PHONY : external/raylib/CMakeFiles/uninstall.dir/clean
+
+#=============================================================================
+# Target rules for target external/raylib/raylib/CMakeFiles/raylib.dir
+
+# All Build rule for target.
+external/raylib/raylib/CMakeFiles/raylib.dir/all: external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/all
+	$(MAKE) $(MAKESILENT) -f external\raylib\raylib\CMakeFiles\raylib.dir\build.make external/raylib/raylib/CMakeFiles/raylib.dir/depend
+	$(MAKE) $(MAKESILENT) -f external\raylib\raylib\CMakeFiles\raylib.dir\build.make external/raylib/raylib/CMakeFiles/raylib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Vludo\Wormie\build\CMakeFiles --progress-num=29,30,31,32,33,34,35,36 "Built target raylib"
+.PHONY : external/raylib/raylib/CMakeFiles/raylib.dir/all
+
+# Build rule for subdir invocation for target.
+external/raylib/raylib/CMakeFiles/raylib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Vludo\Wormie\build\CMakeFiles 29
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/raylib/raylib/CMakeFiles/raylib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Vludo\Wormie\build\CMakeFiles 0
+.PHONY : external/raylib/raylib/CMakeFiles/raylib.dir/rule
+
+# Convenience name for target.
+raylib: external/raylib/raylib/CMakeFiles/raylib.dir/rule
+.PHONY : raylib
+
+# clean rule for target.
+external/raylib/raylib/CMakeFiles/raylib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f external\raylib\raylib\CMakeFiles\raylib.dir\build.make external/raylib/raylib/CMakeFiles/raylib.dir/clean
+.PHONY : external/raylib/raylib/CMakeFiles/raylib.dir/clean
+
+#=============================================================================
+# Target rules for target external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
+
+# All Build rule for target.
+external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/all:
+	$(MAKE) $(MAKESILENT) -f external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\build.make external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/depend
+	$(MAKE) $(MAKESILENT) -f external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\build.make external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Vludo\Wormie\build\CMakeFiles --progress-num=8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28 "Built target glfw"
+.PHONY : external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/all
+
+# Build rule for subdir invocation for target.
+external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Vludo\Wormie\build\CMakeFiles 21
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Vludo\Wormie\build\CMakeFiles 0
+.PHONY : external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/rule
+
+# Convenience name for target.
+glfw: external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/rule
+.PHONY : glfw
+
+# clean rule for target.
+external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/clean:
+	$(MAKE) $(MAKESILENT) -f external\raylib\raylib\external\glfw\src\CMakeFiles\glfw.dir\build.make external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/clean
+.PHONY : external/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/clean
+
+#=============================================================================
+# Target rules for target external/raylib/raylib/external/glfw/src/CMakeFiles/update_mappings.dir
+
+# All Build rule for target.
+external/raylib/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/all:
+	$(MAKE) $(MAKESILENT) -f external\raylib\raylib\external\glfw\src\CMakeFiles\update_mappings.dir\build.make external/raylib/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/depend
+	$(MAKE) $(MAKESILENT) -f external\raylib\raylib\external\glfw\src\CMakeFiles\update_mappings.dir\build.make external/raylib/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Vludo\Wormie\build\CMakeFiles --progress-num=37 "Built target update_mappings"
+.PHONY : external/raylib/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/all
+
+# Build rule for subdir invocation for target.
+external/raylib/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Vludo\Wormie\build\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/raylib/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Vludo\Wormie\build\CMakeFiles 0
+.PHONY : external/raylib/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/rule
+
+# Convenience name for target.
+update_mappings: external/raylib/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/rule
+.PHONY : update_mappings
+
+# clean rule for target.
+external/raylib/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/clean:
+	$(MAKE) $(MAKESILENT) -f external\raylib\raylib\external\glfw\src\CMakeFiles\update_mappings.dir\build.make external/raylib/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/clean
+.PHONY : external/raylib/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

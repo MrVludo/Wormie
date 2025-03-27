@@ -177,6 +177,7 @@ Wormie.exe: CMakeFiles/Wormie.dir/src/TetormBlocks.cc.obj
 Wormie.exe: CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj
 Wormie.exe: CMakeFiles/Wormie.dir/src/main.cc.obj
 Wormie.exe: CMakeFiles/Wormie.dir/build.make
+Wormie.exe: external/raylib/raylib/libraylib.a
 Wormie.exe: CMakeFiles/Wormie.dir/linkLibs.rsp
 Wormie.exe: CMakeFiles/Wormie.dir/objects1.rsp
 Wormie.exe: CMakeFiles/Wormie.dir/link.txt

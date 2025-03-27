@@ -1,1 +1,1 @@
--IC:/Users/Vludo/Wormie/raylib/include
+-IC:/Users/Vludo/Wormie/external/raylib/src -IC:/Users/Vludo/Wormie/external/raylib/src/external/glfw/include

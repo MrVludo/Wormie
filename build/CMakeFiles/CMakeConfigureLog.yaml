@@ -622,3 +622,146 @@ events:
       
       
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/share/cmake-3.26/Modules/CheckCCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "external/raylib/cmake/AddIfFlagCompiles.cmake:3 (CHECK_C_COMPILER_FLAG)"
+      - "external/raylib/cmake/CompilerFlags.cmake:5 (add_if_flag_compiles)"
+      - "external/raylib/CMakeLists.txt:35 (include)"
+    checks:
+      - "Performing Test COMPILER_HAS_THOSE_TOGGLES"
+    directories:
+      source: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-yzp9pm"
+      binary: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-yzp9pm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Vludo/Wormie/external/raylib/cmake"
+    buildResult:
+      variable: "COMPILER_HAS_THOSE_TOGGLES"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-yzp9pm
+        
+        Run Build Command(s):C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_3a0a8/fast && C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3a0a8.dir\\build.make CMakeFiles/cmTC_3a0a8.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-yzp9pm'
+        Building C object CMakeFiles/cmTC_3a0a8.dir/src.c.obj
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe -DCOMPILER_HAS_THOSE_TOGGLES  -Werror=pointer-arith -o CMakeFiles\\cmTC_3a0a8.dir\\src.c.obj -c C:\\Users\\Vludo\\Wormie\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yzp9pm\\src.c
+        Linking C executable cmTC_3a0a8.exe
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_3a0a8.dir\\link.txt --verbose=1
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_3a0a8.dir/objects.a
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_3a0a8.dir/objects.a @CMakeFiles\\cmTC_3a0a8.dir\\objects1.rsp
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_3a0a8.dir/objects.a -Wl,--no-whole-archive -o cmTC_3a0a8.exe -Wl,--out-implib,libcmTC_3a0a8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_3a0a8.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-yzp9pm'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "external/raylib/src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-4529ky"
+      binary: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-4529ky"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Vludo/Wormie/external/raylib/cmake;C:/Users/Vludo/Wormie/external/raylib/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-4529ky
+        
+        Run Build Command(s):C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_c8cbc/fast && C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c8cbc.dir\\build.make CMakeFiles/cmTC_c8cbc.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-4529ky'
+        Building C object CMakeFiles/cmTC_c8cbc.dir/src.c.obj
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   -std=gnu99 -o CMakeFiles\\cmTC_c8cbc.dir\\src.c.obj -c C:\\Users\\Vludo\\Wormie\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4529ky\\src.c
+        Linking C executable cmTC_c8cbc.exe
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_c8cbc.dir\\link.txt --verbose=1
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_c8cbc.dir/objects.a
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_c8cbc.dir/objects.a @CMakeFiles\\cmTC_c8cbc.dir\\objects1.rsp
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   -Wl,--whole-archive CMakeFiles\\cmTC_c8cbc.dir/objects.a -Wl,--no-whole-archive -o cmTC_c8cbc.exe -Wl,--out-implib,libcmTC_c8cbc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_c8cbc.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-4529ky'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "external/raylib/src/external/glfw/src/CMakeLists.txt:274 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-z19wkq"
+      binary: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-z19wkq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Vludo/Wormie/external/raylib/cmake;C:/Users/Vludo/Wormie/external/raylib/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "DINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-z19wkq
+        
+        Run Build Command(s):C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_8062a/fast && C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_8062a.dir\\build.make CMakeFiles/cmTC_8062a.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-z19wkq'
+        Building C object CMakeFiles/cmTC_8062a.dir/CheckIncludeFile.c.obj
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe   -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   -std=gnu99 -o CMakeFiles\\cmTC_8062a.dir\\CheckIncludeFile.c.obj -c C:\\Users\\Vludo\\Wormie\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z19wkq\\CheckIncludeFile.c
+        Linking C executable cmTC_8062a.exe
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_8062a.dir\\link.txt --verbose=1
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_8062a.dir/objects.a
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_8062a.dir/objects.a @CMakeFiles\\cmTC_8062a.dir\\objects1.rsp
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   -Wl,--whole-archive CMakeFiles\\cmTC_8062a.dir/objects.a -Wl,--no-whole-archive -o cmTC_8062a.exe -Wl,--out-implib,libcmTC_8062a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_8062a.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-z19wkq'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "external/raylib/src/external/glfw/src/CMakeLists.txt:275 (check_include_file)"
+    checks:
+      - "Looking for xinput.h"
+    directories:
+      source: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-vwxc5k"
+      binary: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-vwxc5k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Vludo/Wormie/external/raylib/cmake;C:/Users/Vludo/Wormie/external/raylib/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "XINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-vwxc5k
+        
+        Run Build Command(s):C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_11115/fast && C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_11115.dir\\build.make CMakeFiles/cmTC_11115.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-vwxc5k'
+        Building C object CMakeFiles/cmTC_11115.dir/CheckIncludeFile.c.obj
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe   -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   -std=gnu99 -o CMakeFiles\\cmTC_11115.dir\\CheckIncludeFile.c.obj -c C:\\Users\\Vludo\\Wormie\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vwxc5k\\CheckIncludeFile.c
+        Linking C executable cmTC_11115.exe
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_11115.dir\\link.txt --verbose=1
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_11115.dir/objects.a
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_11115.dir/objects.a @CMakeFiles\\cmTC_11115.dir\\objects1.rsp
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   -Wl,--whole-archive CMakeFiles\\cmTC_11115.dir/objects.a -Wl,--no-whole-archive -o cmTC_11115.exe -Wl,--out-implib,libcmTC_11115.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_11115.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-vwxc5k'
+        
+      exitCode: 0
+...

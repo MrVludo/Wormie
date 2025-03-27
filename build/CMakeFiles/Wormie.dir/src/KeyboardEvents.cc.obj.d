@@ -1,7 +1,7 @@
 CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj: \
  C:\Users\Vludo\Wormie\src\KeyboardEvents.cc \
  C:\Users\Vludo\Wormie\src\config.hh \
- C:/Users/Vludo/Wormie/raylib/include/raylib.h \
+ C:/Users/Vludo/Wormie/external/raylib/src/raylib.h \
  c:\users\vludo\appdata\roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\lib\gcc\x86_64-w64-mingw32\12.3.0\include\stdarg.h \
  c:\users\vludo\appdata\roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\x86_64-w64-mingw32\include\stdarg.h \
  c:\users\vludo\appdata\roaming\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\mingw64\x86_64-w64-mingw32\include\_mingw_stdarg.h \
