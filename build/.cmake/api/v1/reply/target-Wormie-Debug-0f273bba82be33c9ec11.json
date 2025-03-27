@@ -99,7 +99,7 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "",
+				"fragment" : "-mwindows",
 				"role" : "flags"
 			},
 			{

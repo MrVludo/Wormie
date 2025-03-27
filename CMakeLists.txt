@@ -17,4 +17,4 @@ add_executable(Wormie
 )
 target_link_libraries(Wormie raylib opengl32 gdi32 winmm)
 
-# set_target_properties(Wormie PROPERTIES WIN32_EXECUTABLE TRUE)
+set_target_properties(Wormie PROPERTIES WIN32_EXECUTABLE TRUE)
