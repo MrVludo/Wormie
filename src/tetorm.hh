@@ -3,6 +3,9 @@
 
 extern std::vector<std::vector<int>> fieldArr;
 extern double startTime;
+extern int tscore;
+
+extern void clearRows();
 
 class tBlock {
 private:

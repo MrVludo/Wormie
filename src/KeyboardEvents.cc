@@ -85,10 +85,33 @@ void TetormKeyboard() {
     // Movement:
     if (IsKeyPressed(KEY_UP) || IsKeyPressed(KEY_W)) {
         block.rotate();
+        if (block.checkCollision()) {
+            block.x -= 1;
+            if (block.checkCollision()) {
+                block.x += 2;
+                if (block.checkCollision()) {
+                    block.x -= 3;
+                    if (block.checkCollision()) {
+                        block.x += 4;
+                        if (block.checkCollision()) {
+                            block.x -= 2;
+                            block.y += 1;
+                            if (block.checkCollision()) {
+                                block.y += 1;
+                                if (block.checkCollision()) {
+                                    block.y -= 2;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
         if (block.checkCollision()) block.rotateBack();
     }
     if (IsKeyPressed(KEY_DOWN) || IsKeyPressed(KEY_S) || IsKeyPressedRepeat(KEY_DOWN) || IsKeyPressedRepeat(KEY_S)) {
         block.fall();
+        score++;
     }
     if (IsKeyPressed(KEY_LEFT) || IsKeyPressed(KEY_A) || IsKeyPressedRepeat(KEY_LEFT) || IsKeyPressedRepeat(KEY_A)) {
         block.x -= 1;

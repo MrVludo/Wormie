@@ -44,7 +44,10 @@ void tBlock::fall() {
 }
 
 void tBlock::shift() {
-    while(isFalling) fall();
+    while(isFalling) {
+        fall();
+        tscore++;
+    }
 }
 
 void tBlock::sendToField() {
@@ -54,6 +57,7 @@ void tBlock::sendToField() {
             fieldArr[x+i][y+j] = id;
         }
     }
+    clearRows();
 }
 
 bool tBlock::checkCollision() {
