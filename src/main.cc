@@ -4,7 +4,7 @@ Font FontJersey10, FontMicro5, FontTiny5;
 std::ifstream GameDataFileR;
 std::ofstream GameDataFileW;
 std::string GameDataFileName = "GameData.worm";
-int savedGameData[2];
+int savedGameData[3];
 bool closeWindow = false;
 
 // Button: posX, posY, width, height 
@@ -38,11 +38,11 @@ int main() {
     GameDataFileR.open(GameDataFileName);
     if (!GameDataFileR.is_open()) {
         GameDataFileW.open(GameDataFileName);
-        GameDataFileW << "0 0";
+        GameDataFileW << "0 0 0";
         GameDataFileW.close();
         GameDataFileR.open(GameDataFileName);
     }
-    GameDataFileR >> std::hex >> savedGameData[0] >> std::hex >> savedGameData[1];
+    GameDataFileR >> std::hex >> savedGameData[0] >> std::hex >> savedGameData[1] >> std::hex >> savedGameData[2];
     // std::cout << savedGameData[0] << ' ' << savedGameData[1] << std::endl; 
     GameDataFileR.close();
     
@@ -82,7 +82,7 @@ int main() {
     }
 
     GameDataFileW.open(GameDataFileName);
-    GameDataFileW << std::hex << savedGameData[0] << ' ' << std::hex << savedGameData[1]; 
+    GameDataFileW << std::hex << savedGameData[0] << ' ' << std::hex << savedGameData[1] << ' ' << std::hex << savedGameData[2]; 
     GameDataFileW.close();
     CloseWindow();
     UnloadFont(FontJersey10);

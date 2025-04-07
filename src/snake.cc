@@ -148,7 +148,8 @@ void play_snake(int gridR) {
         ShowCursor();
     }
     GameDataFileW.open(GameDataFileName);
-    GameDataFileW << std::hex << savedGameData[0] << ' ' << std::hex << savedGameData[1]; 
+    for (int i : savedGameData) 
+        GameDataFileW << std::hex << savedGameData[i] << ' '; 
     GameDataFileW.close();
 }
 

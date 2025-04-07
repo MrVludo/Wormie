@@ -91,4 +91,6 @@ Color tBlock::idToColor(int blockId) {
 void tBlock::makeNew() {
     int prevId = id;
     while (id == prevId) block = tBlock();
+    if (checkCollision())
+        tGameOver = true;
 }

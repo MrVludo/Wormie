@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-0g2qjw"
-      binary: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-0g2qjw"
+      source: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-4207ot"
+      binary: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-4207ot"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -70,12 +70,12 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-0g2qjw
+        Change Dir: C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-4207ot
         
-        Run Build Command(s):C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_4356c/fast && C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_4356c.dir\\build.make CMakeFiles/cmTC_4356c.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-0g2qjw'
-        Building C object CMakeFiles/cmTC_4356c.dir/CMakeCCompilerABI.c.obj
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_4356c.dir\\CMakeCCompilerABI.c.obj -c C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c
+        Run Build Command(s):C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1f5f9/fast && C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_1f5f9.dir\\build.make CMakeFiles/cmTC_1f5f9.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-4207ot'
+        Building C object CMakeFiles/cmTC_1f5f9.dir/CMakeCCompilerABI.c.obj
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_1f5f9.dir\\CMakeCCompilerABI.c.obj -c C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -84,8 +84,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 12.3.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4356c.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_4356c.dir\\'
-         c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/cc1.exe -quiet -v -iprefix c:\\users\\vludo\\appdata\\roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.3.0/ -D_REENTRANT C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_4356c.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\Vludo\\AppData\\Local\\Temp\\ccYt6IqE.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1f5f9.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1f5f9.dir\\'
+         c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/cc1.exe -quiet -v -iprefix c:\\users\\vludo\\appdata\\roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.3.0/ -D_REENTRANT C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_1f5f9.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\Vludo\\AppData\\Local\\Temp\\ccOJn4lW.s
         GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) version 12.3.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 12.3.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -108,17 +108,17 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 95ca182ce3b9fae203a86266b101336e
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4356c.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_4356c.dir\\'
-         c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_4356c.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Vludo\\AppData\\Local\\Temp\\ccYt6IqE.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1f5f9.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1f5f9.dir\\'
+         c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_1f5f9.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Vludo\\AppData\\Local\\Temp\\ccOJn4lW.s
         GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders) 2.40
         COMPILER_PATH=c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../lib/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4356c.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_4356c.dir\\CMakeCCompilerABI.c.'
-        Linking C executable cmTC_4356c.exe
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_4356c.dir\\link.txt --verbose=1
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_4356c.dir/objects.a
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_4356c.dir/objects.a @CMakeFiles\\cmTC_4356c.dir\\objects1.rsp
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_4356c.dir/objects.a -Wl,--no-whole-archive -o cmTC_4356c.exe -Wl,--out-implib,libcmTC_4356c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1f5f9.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1f5f9.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_1f5f9.exe
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_1f5f9.dir\\link.txt --verbose=1
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_1f5f9.dir/objects.a
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_1f5f9.dir/objects.a @CMakeFiles\\cmTC_1f5f9.dir\\objects1.rsp
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_1f5f9.dir/objects.a -Wl,--no-whole-archive -o cmTC_1f5f9.exe -Wl,--out-implib,libcmTC_1f5f9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/lto-wrapper.exe
@@ -130,10 +130,10 @@ events:
         gcc version 12.3.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) 
         COMPILER_PATH=c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../lib/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4356c.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4356c.'
-         c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/collect2.exe -plugin c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/liblto_plugin.dll -plugin-opt=c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Vludo\\AppData\\Local\\Temp\\ccGQax9R.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_4356c.exe c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/crtbegin.o -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0 -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../lib -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../.. --whole-archive CMakeFiles\\cmTC_4356c.dir/objects.a --no-whole-archive --out-implib libcmTC_4356c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/crtend.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4356c.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4356c.'
-        mingw32-make[1]: Leaving directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-0g2qjw'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1f5f9.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1f5f9.'
+         c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/collect2.exe -plugin c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/liblto_plugin.dll -plugin-opt=c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Vludo\\AppData\\Local\\Temp\\cc6iZXJ9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_1f5f9.exe c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/crtbegin.o -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0 -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../lib -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../.. --whole-archive CMakeFiles\\cmTC_1f5f9.dir/objects.a --no-whole-archive --out-implib libcmTC_1f5f9.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1f5f9.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1f5f9.'
+        mingw32-make[1]: Leaving directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-4207ot'
         
       exitCode: 0
   -
@@ -167,12 +167,12 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-0g2qjw]
+        ignore line: [Change Dir: C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-4207ot]
         ignore line: []
-        ignore line: [Run Build Command(s):C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_4356c/fast && C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_4356c.dir\\build.make CMakeFiles/cmTC_4356c.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-0g2qjw']
-        ignore line: [Building C object CMakeFiles/cmTC_4356c.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_4356c.dir\\CMakeCCompilerABI.c.obj -c C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s):C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1f5f9/fast && C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_1f5f9.dir\\build.make CMakeFiles/cmTC_1f5f9.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-4207ot']
+        ignore line: [Building C object CMakeFiles/cmTC_1f5f9.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_1f5f9.dir\\CMakeCCompilerABI.c.obj -c C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -181,8 +181,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 12.3.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4356c.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_4356c.dir\\']
-        ignore line: [ c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/cc1.exe -quiet -v -iprefix c:\\users\\vludo\\appdata\\roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.3.0/ -D_REENTRANT C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_4356c.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\Vludo\\AppData\\Local\\Temp\\ccYt6IqE.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1f5f9.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1f5f9.dir\\']
+        ignore line: [ c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/cc1.exe -quiet -v -iprefix c:\\users\\vludo\\appdata\\roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.3.0/ -D_REENTRANT C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_1f5f9.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\Vludo\\AppData\\Local\\Temp\\ccOJn4lW.s]
         ignore line: [GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders) version 12.3.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 12.3.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -205,8 +205,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 95ca182ce3b9fae203a86266b101336e]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4356c.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_4356c.dir\\']
-        ignore line: [ c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_4356c.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Vludo\\AppData\\Local\\Temp\\ccYt6IqE.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1f5f9.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1f5f9.dir\\']
+        ignore line: [ c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_1f5f9.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Vludo\\AppData\\Local\\Temp\\ccOJn4lW.s]
         ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders) 2.40]
         ignore line: [COMPILER_PATH=c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/]
         ignore line: [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/]
@@ -217,12 +217,12 @@ events:
         ignore line: [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../lib/]
         ignore line: [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_4356c.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_4356c.dir\\CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_4356c.exe]
-        ignore line: [C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_4356c.dir\\link.txt --verbose=1]
-        ignore line: [C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_4356c.dir/objects.a]
-        ignore line: [C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_4356c.dir/objects.a @CMakeFiles\\cmTC_4356c.dir\\objects1.rsp]
-        ignore line: [C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_4356c.dir/objects.a -Wl --no-whole-archive -o cmTC_4356c.exe -Wl --out-implib libcmTC_4356c.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1f5f9.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1f5f9.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_1f5f9.exe]
+        ignore line: [C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_1f5f9.dir\\link.txt --verbose=1]
+        ignore line: [C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_1f5f9.dir/objects.a]
+        ignore line: [C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_1f5f9.dir/objects.a @CMakeFiles\\cmTC_1f5f9.dir\\objects1.rsp]
+        ignore line: [C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_1f5f9.dir/objects.a -Wl --no-whole-archive -o cmTC_1f5f9.exe -Wl --out-implib libcmTC_1f5f9.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/lto-wrapper.exe]
@@ -241,13 +241,13 @@ events:
         ignore line: [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../lib/]
         ignore line: [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4356c.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4356c.']
-        link line: [ c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/collect2.exe -plugin c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/liblto_plugin.dll -plugin-opt=c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Vludo\\AppData\\Local\\Temp\\ccGQax9R.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_4356c.exe c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/crtbegin.o -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0 -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../lib -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../.. --whole-archive CMakeFiles\\cmTC_4356c.dir/objects.a --no-whole-archive --out-implib libcmTC_4356c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1f5f9.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1f5f9.']
+        link line: [ c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/collect2.exe -plugin c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/liblto_plugin.dll -plugin-opt=c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Vludo\\AppData\\Local\\Temp\\cc6iZXJ9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_1f5f9.exe c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/crtbegin.o -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0 -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../lib -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../.. --whole-archive CMakeFiles\\cmTC_1f5f9.dir/objects.a --no-whole-archive --out-implib libcmTC_1f5f9.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/crtend.o]
           arg [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\Vludo\\AppData\\Local\\Temp\\ccGQax9R.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Vludo\\AppData\\Local\\Temp\\cc6iZXJ9.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -271,7 +271,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_4356c.exe] ==> ignore
+          arg [cmTC_1f5f9.exe] ==> ignore
           arg [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/crtbegin.o] ==> obj [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/crtbegin.o]
           arg [-Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0] ==> dir [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0]
@@ -281,10 +281,10 @@ events:
           arg [-Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib] ==> dir [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib]
           arg [-Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../..] ==> dir [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../..]
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_4356c.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_1f5f9.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_4356c.dll.a] ==> ignore
+          arg [libcmTC_1f5f9.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -337,8 +337,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-45fhz1"
-      binary: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-45fhz1"
+      source: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-74lu98"
+      binary: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-74lu98"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -346,12 +346,12 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-45fhz1
+        Change Dir: C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-74lu98
         
-        Run Build Command(s):C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a3201/fast && C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a3201.dir\\build.make CMakeFiles/cmTC_a3201.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-45fhz1'
-        Building CXX object CMakeFiles/cmTC_a3201.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_a3201.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp
+        Run Build Command(s):C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_6a778/fast && C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_6a778.dir\\build.make CMakeFiles/cmTC_6a778.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-74lu98'
+        Building CXX object CMakeFiles/cmTC_6a778.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_6a778.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\g++.exe
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -360,8 +360,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 12.3.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a3201.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_a3201.dir\\'
-         c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/cc1plus.exe -quiet -v -iprefix c:\\users\\vludo\\appdata\\roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.3.0/ -D_REENTRANT C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_a3201.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\Vludo\\AppData\\Local\\Temp\\ccZfpQie.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_6a778.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_6a778.dir\\'
+         c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/cc1plus.exe -quiet -v -iprefix c:\\users\\vludo\\appdata\\roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.3.0/ -D_REENTRANT C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_6a778.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\Vludo\\AppData\\Local\\Temp\\ccrBKnbC.s
         GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) version 12.3.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 12.3.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -390,17 +390,17 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 92d6bcd3ef46bf6644497bf2ba3ceeee
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a3201.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_a3201.dir\\'
-         c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_a3201.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Vludo\\AppData\\Local\\Temp\\ccZfpQie.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_6a778.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_6a778.dir\\'
+         c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_6a778.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Vludo\\AppData\\Local\\Temp\\ccrBKnbC.s
         GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders) 2.40
         COMPILER_PATH=c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../lib/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a3201.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_a3201.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_a3201.exe
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_a3201.dir\\link.txt --verbose=1
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_a3201.dir/objects.a
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_a3201.dir/objects.a @CMakeFiles\\cmTC_a3201.dir\\objects1.rsp
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\g++.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_a3201.dir/objects.a -Wl,--no-whole-archive -o cmTC_a3201.exe -Wl,--out-implib,libcmTC_a3201.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_6a778.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_6a778.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_6a778.exe
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_6a778.dir\\link.txt --verbose=1
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_6a778.dir/objects.a
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_6a778.dir/objects.a @CMakeFiles\\cmTC_6a778.dir\\objects1.rsp
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\g++.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_6a778.dir/objects.a -Wl,--no-whole-archive -o cmTC_6a778.exe -Wl,--out-implib,libcmTC_6a778.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/lto-wrapper.exe
@@ -412,10 +412,10 @@ events:
         gcc version 12.3.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) 
         COMPILER_PATH=c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../lib/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/;c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a3201.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a3201.'
-         c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/collect2.exe -plugin c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/liblto_plugin.dll -plugin-opt=c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Vludo\\AppData\\Local\\Temp\\ccDqUOyo.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_a3201.exe c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/crtbegin.o -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0 -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../lib -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../.. --whole-archive CMakeFiles\\cmTC_a3201.dir/objects.a --no-whole-archive --out-implib libcmTC_a3201.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/crtend.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a3201.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a3201.'
-        mingw32-make[1]: Leaving directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-45fhz1'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6a778.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6a778.'
+         c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/collect2.exe -plugin c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/liblto_plugin.dll -plugin-opt=c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Vludo\\AppData\\Local\\Temp\\ccvD2rRP.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_6a778.exe c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/crtbegin.o -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0 -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../lib -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../.. --whole-archive CMakeFiles\\cmTC_6a778.dir/objects.a --no-whole-archive --out-implib libcmTC_6a778.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6a778.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6a778.'
+        mingw32-make[1]: Leaving directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-74lu98'
         
       exitCode: 0
   -
@@ -455,12 +455,12 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-45fhz1]
+        ignore line: [Change Dir: C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-74lu98]
         ignore line: []
-        ignore line: [Run Build Command(s):C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a3201/fast && C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a3201.dir\\build.make CMakeFiles/cmTC_a3201.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-45fhz1']
-        ignore line: [Building CXX object CMakeFiles/cmTC_a3201.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_a3201.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s):C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_6a778/fast && C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_6a778.dir\\build.make CMakeFiles/cmTC_6a778.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-74lu98']
+        ignore line: [Building CXX object CMakeFiles/cmTC_6a778.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_6a778.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\g++.exe]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -469,8 +469,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 12.3.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a3201.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_a3201.dir\\']
-        ignore line: [ c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/cc1plus.exe -quiet -v -iprefix c:\\users\\vludo\\appdata\\roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.3.0/ -D_REENTRANT C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_a3201.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\Vludo\\AppData\\Local\\Temp\\ccZfpQie.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_6a778.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_6a778.dir\\']
+        ignore line: [ c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/cc1plus.exe -quiet -v -iprefix c:\\users\\vludo\\appdata\\roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\../lib/gcc/x86_64-w64-mingw32/12.3.0/ -D_REENTRANT C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_6a778.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\Vludo\\AppData\\Local\\Temp\\ccrBKnbC.s]
         ignore line: [GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders) version 12.3.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 12.3.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -499,8 +499,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 92d6bcd3ef46bf6644497bf2ba3ceeee]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a3201.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_a3201.dir\\']
-        ignore line: [ c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_a3201.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Vludo\\AppData\\Local\\Temp\\ccZfpQie.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_6a778.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_6a778.dir\\']
+        ignore line: [ c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_6a778.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Vludo\\AppData\\Local\\Temp\\ccrBKnbC.s]
         ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders) 2.40]
         ignore line: [COMPILER_PATH=c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/]
         ignore line: [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/]
@@ -511,12 +511,12 @@ events:
         ignore line: [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../lib/]
         ignore line: [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a3201.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_a3201.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_a3201.exe]
-        ignore line: [C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_a3201.dir\\link.txt --verbose=1]
-        ignore line: [C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_a3201.dir/objects.a]
-        ignore line: [C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_a3201.dir/objects.a @CMakeFiles\\cmTC_a3201.dir\\objects1.rsp]
-        ignore line: [C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\g++.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_a3201.dir/objects.a -Wl --no-whole-archive -o cmTC_a3201.exe -Wl --out-implib libcmTC_a3201.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_6a778.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_6a778.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_6a778.exe]
+        ignore line: [C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_6a778.dir\\link.txt --verbose=1]
+        ignore line: [C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_6a778.dir/objects.a]
+        ignore line: [C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_6a778.dir/objects.a @CMakeFiles\\cmTC_6a778.dir\\objects1.rsp]
+        ignore line: [C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\g++.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_6a778.dir/objects.a -Wl --no-whole-archive -o cmTC_6a778.exe -Wl --out-implib libcmTC_6a778.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/lto-wrapper.exe]
@@ -535,13 +535,13 @@ events:
         ignore line: [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../lib/]
         ignore line: [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a3201.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a3201.']
-        link line: [ c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/collect2.exe -plugin c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/liblto_plugin.dll -plugin-opt=c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Vludo\\AppData\\Local\\Temp\\ccDqUOyo.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_a3201.exe c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/crtbegin.o -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0 -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../lib -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../.. --whole-archive CMakeFiles\\cmTC_a3201.dir/objects.a --no-whole-archive --out-implib libcmTC_a3201.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6a778.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6a778.']
+        link line: [ c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/collect2.exe -plugin c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/liblto_plugin.dll -plugin-opt=c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Vludo\\AppData\\Local\\Temp\\ccvD2rRP.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_6a778.exe c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/crtbegin.o -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0 -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../lib -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib -Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../.. --whole-archive CMakeFiles\\cmTC_6a778.dir/objects.a --no-whole-archive --out-implib libcmTC_6a778.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/crtend.o]
           arg [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.3.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\Vludo\\AppData\\Local\\Temp\\ccDqUOyo.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Vludo\\AppData\\Local\\Temp\\ccvD2rRP.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -565,7 +565,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_a3201.exe] ==> ignore
+          arg [cmTC_6a778.exe] ==> ignore
           arg [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/crtbegin.o] ==> obj [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/crtbegin.o]
           arg [-Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0] ==> dir [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0]
@@ -575,10 +575,10 @@ events:
           arg [-Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib] ==> dir [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../../../x86_64-w64-mingw32/lib]
           arg [-Lc:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../..] ==> dir [c:/users/vludo/appdata/roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.3.0/../../..]
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_a3201.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_6a778.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_a3201.dll.a] ==> ignore
+          arg [libcmTC_6a778.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -621,10 +621,6 @@ events:
         implicit fwks: []
       
       
-...
-
----
-events:
   -
     kind: "try_compile-v1"
     backtrace:
@@ -637,8 +633,8 @@ events:
     checks:
       - "Performing Test COMPILER_HAS_THOSE_TOGGLES"
     directories:
-      source: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-yzp9pm"
-      binary: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-yzp9pm"
+      source: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-z3knb3"
+      binary: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-z3knb3"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -648,18 +644,18 @@ events:
       variable: "COMPILER_HAS_THOSE_TOGGLES"
       cached: true
       stdout: |
-        Change Dir: C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-yzp9pm
+        Change Dir: C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-z3knb3
         
-        Run Build Command(s):C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_3a0a8/fast && C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3a0a8.dir\\build.make CMakeFiles/cmTC_3a0a8.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-yzp9pm'
-        Building C object CMakeFiles/cmTC_3a0a8.dir/src.c.obj
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe -DCOMPILER_HAS_THOSE_TOGGLES  -Werror=pointer-arith -o CMakeFiles\\cmTC_3a0a8.dir\\src.c.obj -c C:\\Users\\Vludo\\Wormie\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yzp9pm\\src.c
-        Linking C executable cmTC_3a0a8.exe
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_3a0a8.dir\\link.txt --verbose=1
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_3a0a8.dir/objects.a
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_3a0a8.dir/objects.a @CMakeFiles\\cmTC_3a0a8.dir\\objects1.rsp
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_3a0a8.dir/objects.a -Wl,--no-whole-archive -o cmTC_3a0a8.exe -Wl,--out-implib,libcmTC_3a0a8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_3a0a8.dir\\linkLibs.rsp
-        mingw32-make[1]: Leaving directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-yzp9pm'
+        Run Build Command(s):C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_cee8a/fast && C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_cee8a.dir\\build.make CMakeFiles/cmTC_cee8a.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-z3knb3'
+        Building C object CMakeFiles/cmTC_cee8a.dir/src.c.obj
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe -DCOMPILER_HAS_THOSE_TOGGLES  -Werror=pointer-arith -o CMakeFiles\\cmTC_cee8a.dir\\src.c.obj -c C:\\Users\\Vludo\\Wormie\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z3knb3\\src.c
+        Linking C executable cmTC_cee8a.exe
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_cee8a.dir\\link.txt --verbose=1
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_cee8a.dir/objects.a
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_cee8a.dir/objects.a @CMakeFiles\\cmTC_cee8a.dir\\objects1.rsp
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_cee8a.dir/objects.a -Wl,--no-whole-archive -o cmTC_cee8a.exe -Wl,--out-implib,libcmTC_cee8a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_cee8a.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-z3knb3'
         
       exitCode: 0
   -
@@ -673,8 +669,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-4529ky"
-      binary: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-4529ky"
+      source: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-u1d31r"
+      binary: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-u1d31r"
     cmakeVariables:
       CMAKE_C_FLAGS: "-fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -684,18 +680,18 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-4529ky
+        Change Dir: C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-u1d31r
         
-        Run Build Command(s):C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_c8cbc/fast && C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c8cbc.dir\\build.make CMakeFiles/cmTC_c8cbc.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-4529ky'
-        Building C object CMakeFiles/cmTC_c8cbc.dir/src.c.obj
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   -std=gnu99 -o CMakeFiles\\cmTC_c8cbc.dir\\src.c.obj -c C:\\Users\\Vludo\\Wormie\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4529ky\\src.c
-        Linking C executable cmTC_c8cbc.exe
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_c8cbc.dir\\link.txt --verbose=1
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_c8cbc.dir/objects.a
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_c8cbc.dir/objects.a @CMakeFiles\\cmTC_c8cbc.dir\\objects1.rsp
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   -Wl,--whole-archive CMakeFiles\\cmTC_c8cbc.dir/objects.a -Wl,--no-whole-archive -o cmTC_c8cbc.exe -Wl,--out-implib,libcmTC_c8cbc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_c8cbc.dir\\linkLibs.rsp
-        mingw32-make[1]: Leaving directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-4529ky'
+        Run Build Command(s):C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a982b/fast && C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a982b.dir\\build.make CMakeFiles/cmTC_a982b.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-u1d31r'
+        Building C object CMakeFiles/cmTC_a982b.dir/src.c.obj
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   -std=gnu99 -o CMakeFiles\\cmTC_a982b.dir\\src.c.obj -c C:\\Users\\Vludo\\Wormie\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1d31r\\src.c
+        Linking C executable cmTC_a982b.exe
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_a982b.dir\\link.txt --verbose=1
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_a982b.dir/objects.a
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_a982b.dir/objects.a @CMakeFiles\\cmTC_a982b.dir\\objects1.rsp
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   -Wl,--whole-archive CMakeFiles\\cmTC_a982b.dir/objects.a -Wl,--no-whole-archive -o cmTC_a982b.exe -Wl,--out-implib,libcmTC_a982b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_a982b.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-u1d31r'
         
       exitCode: 0
   -
@@ -706,8 +702,8 @@ events:
     checks:
       - "Looking for dinput.h"
     directories:
-      source: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-z19wkq"
-      binary: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-z19wkq"
+      source: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-aunfdm"
+      binary: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-aunfdm"
     cmakeVariables:
       CMAKE_C_FLAGS: "-fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -717,18 +713,18 @@ events:
       variable: "DINPUT_H_FOUND"
       cached: true
       stdout: |
-        Change Dir: C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-z19wkq
+        Change Dir: C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-aunfdm
         
-        Run Build Command(s):C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_8062a/fast && C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_8062a.dir\\build.make CMakeFiles/cmTC_8062a.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-z19wkq'
-        Building C object CMakeFiles/cmTC_8062a.dir/CheckIncludeFile.c.obj
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe   -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   -std=gnu99 -o CMakeFiles\\cmTC_8062a.dir\\CheckIncludeFile.c.obj -c C:\\Users\\Vludo\\Wormie\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z19wkq\\CheckIncludeFile.c
-        Linking C executable cmTC_8062a.exe
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_8062a.dir\\link.txt --verbose=1
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_8062a.dir/objects.a
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_8062a.dir/objects.a @CMakeFiles\\cmTC_8062a.dir\\objects1.rsp
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   -Wl,--whole-archive CMakeFiles\\cmTC_8062a.dir/objects.a -Wl,--no-whole-archive -o cmTC_8062a.exe -Wl,--out-implib,libcmTC_8062a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_8062a.dir\\linkLibs.rsp
-        mingw32-make[1]: Leaving directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-z19wkq'
+        Run Build Command(s):C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_17737/fast && C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_17737.dir\\build.make CMakeFiles/cmTC_17737.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-aunfdm'
+        Building C object CMakeFiles/cmTC_17737.dir/CheckIncludeFile.c.obj
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe   -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   -std=gnu99 -o CMakeFiles\\cmTC_17737.dir\\CheckIncludeFile.c.obj -c C:\\Users\\Vludo\\Wormie\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aunfdm\\CheckIncludeFile.c
+        Linking C executable cmTC_17737.exe
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_17737.dir\\link.txt --verbose=1
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_17737.dir/objects.a
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_17737.dir/objects.a @CMakeFiles\\cmTC_17737.dir\\objects1.rsp
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   -Wl,--whole-archive CMakeFiles\\cmTC_17737.dir/objects.a -Wl,--no-whole-archive -o cmTC_17737.exe -Wl,--out-implib,libcmTC_17737.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_17737.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-aunfdm'
         
       exitCode: 0
   -
@@ -739,8 +735,8 @@ events:
     checks:
       - "Looking for xinput.h"
     directories:
-      source: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-vwxc5k"
-      binary: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-vwxc5k"
+      source: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-v9w4j8"
+      binary: "C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-v9w4j8"
     cmakeVariables:
       CMAKE_C_FLAGS: "-fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -750,18 +746,18 @@ events:
       variable: "XINPUT_H_FOUND"
       cached: true
       stdout: |
-        Change Dir: C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-vwxc5k
+        Change Dir: C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-v9w4j8
         
-        Run Build Command(s):C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_11115/fast && C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_11115.dir\\build.make CMakeFiles/cmTC_11115.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-vwxc5k'
-        Building C object CMakeFiles/cmTC_11115.dir/CheckIncludeFile.c.obj
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe   -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   -std=gnu99 -o CMakeFiles\\cmTC_11115.dir\\CheckIncludeFile.c.obj -c C:\\Users\\Vludo\\Wormie\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vwxc5k\\CheckIncludeFile.c
-        Linking C executable cmTC_11115.exe
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_11115.dir\\link.txt --verbose=1
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_11115.dir/objects.a
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_11115.dir/objects.a @CMakeFiles\\cmTC_11115.dir\\objects1.rsp
-        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   -Wl,--whole-archive CMakeFiles\\cmTC_11115.dir/objects.a -Wl,--no-whole-archive -o cmTC_11115.exe -Wl,--out-implib,libcmTC_11115.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_11115.dir\\linkLibs.rsp
-        mingw32-make[1]: Leaving directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-vwxc5k'
+        Run Build Command(s):C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_dc290/fast && C:/Users/Vludo/AppData/Roaming/winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_dc290.dir\\build.make CMakeFiles/cmTC_dc290.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-v9w4j8'
+        Building C object CMakeFiles/cmTC_dc290.dir/CheckIncludeFile.c.obj
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe   -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   -std=gnu99 -o CMakeFiles\\cmTC_dc290.dir\\CheckIncludeFile.c.obj -c C:\\Users\\Vludo\\Wormie\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v9w4j8\\CheckIncludeFile.c
+        Linking C executable cmTC_dc290.exe
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_dc290.dir\\link.txt --verbose=1
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_dc290.dir/objects.a
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_dc290.dir/objects.a @CMakeFiles\\cmTC_dc290.dir\\objects1.rsp
+        C:\\Users\\Vludo\\AppData\\Roaming\\winlibs-x86_64-posix-seh-gcc-12.3.0-llvm-16.0.4-mingw-w64ucrt-11.0.0-r1\\mingw64\\bin\\gcc.exe -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   -Wl,--whole-archive CMakeFiles\\cmTC_dc290.dir/objects.a -Wl,--no-whole-archive -o cmTC_dc290.exe -Wl,--out-implib,libcmTC_dc290.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_dc290.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Vludo/Wormie/build/CMakeFiles/CMakeScratch/TryCompile-v9w4j8'
         
       exitCode: 0
 ...

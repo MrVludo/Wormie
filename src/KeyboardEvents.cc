@@ -110,8 +110,8 @@ void TetormKeyboard() {
         if (block.checkCollision()) block.rotateBack();
     }
     if (IsKeyPressed(KEY_DOWN) || IsKeyPressed(KEY_S) || IsKeyPressedRepeat(KEY_DOWN) || IsKeyPressedRepeat(KEY_S)) {
+        if (block.isFalling) tscore++;
         block.fall();
-        score++;
     }
     if (IsKeyPressed(KEY_LEFT) || IsKeyPressed(KEY_A) || IsKeyPressedRepeat(KEY_LEFT) || IsKeyPressedRepeat(KEY_A)) {
         block.x -= 1;

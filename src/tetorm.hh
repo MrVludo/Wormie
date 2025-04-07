@@ -4,6 +4,7 @@
 extern std::vector<std::vector<int>> fieldArr;
 extern double startTime;
 extern int tscore;
+extern bool tGameOver;
 
 extern void clearRows();
 

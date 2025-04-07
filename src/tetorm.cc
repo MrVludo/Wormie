@@ -8,6 +8,7 @@ extern bool showGrid;
 double startTime;
 tBlock block;
 int tscore;
+bool tGameOver = false;
 
 void play_tetorm() {
     Font scoreFont = FontMicro5;
@@ -22,7 +23,9 @@ void play_tetorm() {
     startTime = GetTime();
     block = tBlock();
     tscore = 0;
-    while (!closeWindow && !WindowShouldClose() && !tetormExit) {
+    tGameOver = false;
+    int tbestScore = savedGameData[2];
+    while (!tGameOver && !closeWindow && !WindowShouldClose() && !tetormExit) {
         KeyboardEvents();
         TetormKeyboard();
 
@@ -84,14 +87,25 @@ void play_tetorm() {
         float scoreFontSize = 12 * heightScale; 
         Vector2 scorePosition = {fieldPosition.x, 0};
         Vector2 scoreSize = MeasureTextEx(scoreFont, std::to_string(tscore).c_str(), scoreFontSize, 2);
-        Vector2 bestScoreTextSize = MeasureTextEx(scoreFont, scoreText.c_str(), scoreFontSize, 2); 
-        Vector2 bestScoreSize = MeasureTextEx(scoreFont, std::to_string(tscore).c_str(), scoreFontSize, 2);
         DrawTextEx(scoreFont, scoreText.c_str(), 
             {fieldPosition.x + fieldSize.x + 5*widthScale, 0},
             scoreFontSize, 2, RAYWHITE);
         DrawTextEx(scoreFont, std::to_string(tscore).c_str(),
             {fieldPosition.x + fieldSize.x + 5*widthScale, 0.8f*(scoreSize.y)},
             scoreFontSize, 2, RED);
+
+        tbestScore = savedGameData[2] = std::max(tbestScore, tscore);
+        
+        std::string bestScoreText = "Best score: ";
+        Vector2 bestScoreTextSize = MeasureTextEx(scoreFont, bestScoreText.c_str(), scoreFontSize, 2); 
+        Vector2 bestScoreSize = MeasureTextEx(scoreFont, std::to_string(tbestScore).c_str(), scoreFontSize, 2);
+        DrawTextEx(scoreFont, bestScoreText.c_str(), 
+            {fieldPosition.x + fieldSize.x + 5*widthScale, 1.6f*(scoreSize.y)},
+            scoreFontSize, 2, RAYWHITE);
+        DrawTextEx(scoreFont, std::to_string(tbestScore).c_str(),
+            {fieldPosition.x + fieldSize.x + 5*widthScale, 2.4f*(scoreSize.y)},
+            scoreFontSize, 2, RED);
+
 
         // Game field grid (gridWidth x gridHeight):
         if (true || showGrid) {
@@ -108,6 +122,10 @@ void play_tetorm() {
         }
         EndDrawing();
     }
+    GameDataFileW.open(GameDataFileName);
+    for (int i : savedGameData) 
+        GameDataFileW << std::hex << savedGameData[i] << ' '; 
+    GameDataFileW.close();
 }
 
 

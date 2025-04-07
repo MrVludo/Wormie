@@ -12,7 +12,7 @@
 // Game Data:
 extern std::ifstream GameDataFileR;
 extern std::ofstream GameDataFileW;
-extern int savedGameData[2];
+extern int savedGameData[3];
 extern std::string GameDataFileName;
 
 // Fonts:
