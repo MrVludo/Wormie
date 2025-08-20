@@ -245,6 +245,14 @@ update_mappings/fast:
 	$(MAKE) $(MAKESILENT) -f external\raylib\raylib\external\glfw\src\CMakeFiles\update_mappings.dir\build.make external/raylib/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/build
 .PHONY : update_mappings/fast
 
+res/resources.obj: res/resources.rc.obj
+.PHONY : res/resources.obj
+
+# target to build an object file
+res/resources.rc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Wormie.dir\build.make CMakeFiles/Wormie.dir/res/resources.rc.obj
+.PHONY : res/resources.rc.obj
+
 src/KeyboardEvents.obj: src/KeyboardEvents.cc.obj
 .PHONY : src/KeyboardEvents.obj
 
@@ -408,6 +416,7 @@ help:
 	@echo ... Wormie
 	@echo ... glfw
 	@echo ... raylib
+	@echo ... res/resources.obj
 	@echo ... src/KeyboardEvents.obj
 	@echo ... src/KeyboardEvents.i
 	@echo ... src/KeyboardEvents.s

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Wormie.dir/res/resources.rc.obj"
   "CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj"
   "CMakeFiles/Wormie.dir/src/KeyboardEvents.cc.obj.d"
   "CMakeFiles/Wormie.dir/src/TetormBlocks.cc.obj"
@@ -18,6 +19,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang CXX RC)
   include(CMakeFiles/Wormie.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

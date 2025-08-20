@@ -14,6 +14,7 @@ add_executable(Wormie
     src/TetormBlocks.cc
     src/KeyboardEvents.cc 
     src/main.cc
+    res/resources.rc
 )
 
 if (WIN32)
