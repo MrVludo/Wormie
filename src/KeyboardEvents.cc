@@ -150,7 +150,7 @@ void TetormKeyboard() {
             tGameOver = false;
             startTime = GetTime();
             block = tBlock();
-            block.isHolded = false;
+            block.holdId = 0;
         }
     }
     if (IsKeyPressed(KEY_G))
