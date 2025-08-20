@@ -1,8 +1,9 @@
 #include "tetorm.hh"
 #include "TetormBlocks.hh"
 
-tBlock::tBlock() {
-    id = GetRandomValue(1, BLOCKAMOUNT);
+tBlock::tBlock(int makeId) {
+    if (!makeId) id = GetRandomValue(1, BLOCKAMOUNT);
+    else id = makeId;
     rotation = 0;
     color = idToColor(id);
     x = 3;
@@ -30,6 +31,18 @@ std::vector<std::vector<bool>> tBlock::getArr() {
     }
     return arr;
 }
+
+std::vector<std::vector<bool>> tBlock::getHoldArr() {
+    std::vector<std::vector<bool>> arr;
+    for (int i = 0; i < 4; ++i) {
+        arr.push_back({0,0,0,0});
+        for (int j = 0; j < 4; ++j) {
+            arr[i][j] = tetormBlocks[holdId][0][j][i]; 
+        }
+    }
+    return arr;
+}
+
 
 void tBlock::fall() {
     y++;
@@ -90,7 +103,22 @@ Color tBlock::idToColor(int blockId) {
 }
 void tBlock::makeNew() {
     int prevId = id;
+    int prevHoldId = holdId;
     while (id == prevId) block = tBlock();
+    holdId = prevHoldId;
     if (checkCollision())
         tGameOver = true;
+}
+
+void tBlock::hold() {
+    int prevId = id;
+    if (!holdId) {
+        makeNew();
+        holdId = prevId;
+    }
+    else {
+        block = tBlock(holdId);
+        holdId = prevId; 
+    }
+    isHolded = true;
 }

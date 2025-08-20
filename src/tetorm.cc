@@ -4,7 +4,7 @@
 std::vector<std::vector<int>> fieldArr;
 
 bool tetormExit = false;
-extern bool showGrid;
+// extern bool showGrid;
 double startTime;
 tBlock block;
 int tscore;
@@ -25,7 +25,7 @@ void play_tetorm() {
     tscore = 0;
     tGameOver = false;
     int tbestScore = savedGameData[2];
-    while (!tGameOver && !closeWindow && !WindowShouldClose() && !tetormExit) {
+    while (!closeWindow && !WindowShouldClose() && !tetormExit) {
         KeyboardEvents();
         TetormKeyboard();
 
@@ -45,24 +45,39 @@ void play_tetorm() {
         BeginDrawing(); 
         ClearBackground(BLACK);
         
+
         // Game field:
+
         Vector2 fieldSize = {gridWidth * 5.f*heightScale, gridHeight * 5.f*heightScale};
         Vector2 fieldPosition = {5.f * widthScale, 5.f * heightScale};
         DrawRectangleV(fieldPosition, fieldSize, DARKGRAY);
         
-        // Falling block:
-        auto blockArr = block.getArr();
-        
-        if (GetTime() - block.prevMoveTime >= 10./block.speed) {
-            block.fall();
-        }
-        if (GetTime() - block.prevMoveTime >= 2 * 10./block.speed)
-            if (!block.isFalling && (GetTime() - block.prevChangeTime >= 10./block.speed 
-                || GetTime() - block.prevMoveTime >= 3 * 10./block.speed)) {
-                block.sendToField();
-                block.makeNew();
+
+        // Other blocks:
+
+        for (int i = 0; i < gridWidth; ++i) {
+            for (int j = 0; j < gridHeight; ++j) if (fieldArr[i][j]) {
+                DrawRectangle(fieldPosition.x + i * fieldSize.x/gridWidth, 
+                        fieldPosition.y + j * fieldSize.y/gridHeight, 
+                        fieldSize.x/gridWidth, fieldSize.y/gridHeight, tGameOver ? GRAY : tBlock::idToColor(fieldArr[i][j]));
             }
-        
+        }
+
+
+        // Falling block:
+
+        auto blockArr = block.getArr();
+        if (!tGameOver) {
+            if (GetTime() - block.prevMoveTime >= 10./block.speed) {
+                block.fall();
+            }
+            if (GetTime() - block.prevMoveTime >= 2 * 10./block.speed)
+                if (!block.isFalling && (GetTime() - block.prevChangeTime >= 10./block.speed 
+                    || GetTime() - block.prevMoveTime >= 3 * 10./block.speed)) {
+                    block.sendToField();
+                    block.makeNew();
+                }
+        }
         for (int i = 0; i < 4; ++i) {
             for (int j = 0; j < 4; ++j) {
                 if (blockArr[i][j]) {
@@ -73,16 +88,9 @@ void play_tetorm() {
             }
         }
 
-        // Other blocks:
-        for (int i = 0; i < gridWidth; ++i) {
-            for (int j = 0; j < gridHeight; ++j) if (fieldArr[i][j]) {
-                DrawRectangle(fieldPosition.x + i * fieldSize.x/gridWidth, 
-                        fieldPosition.y + j * fieldSize.y/gridHeight, 
-                        fieldSize.x/gridWidth, fieldSize.y/gridHeight, tBlock::idToColor(fieldArr[i][j]));
-            }
-        }
 
         // Score text
+
         std::string scoreText = "Score: ";
         float scoreFontSize = 12 * heightScale; 
         Vector2 scorePosition = {fieldPosition.x, 0};
@@ -93,8 +101,14 @@ void play_tetorm() {
         DrawTextEx(scoreFont, std::to_string(tscore).c_str(),
             {fieldPosition.x + fieldSize.x + 5*widthScale, 0.8f*(scoreSize.y)},
             scoreFontSize, 2, RED);
-
-        tbestScore = savedGameData[2] = std::max(tbestScore, tscore);
+        
+        if (tscore > tbestScore) {
+            tbestScore = savedGameData[2] = tscore;
+            GameDataFileW.open(GameDataFileName);
+            for (int i : savedGameData) 
+                GameDataFileW << std::hex << savedGameData[i] << ' '; 
+            GameDataFileW.close();
+        }
         
         std::string bestScoreText = "Best score: ";
         Vector2 bestScoreTextSize = MeasureTextEx(scoreFont, bestScoreText.c_str(), scoreFontSize, 2); 
@@ -107,19 +121,58 @@ void play_tetorm() {
             scoreFontSize, 2, RED);
 
 
-        // Game field grid (gridWidth x gridHeight):
-        if (true || showGrid) {
-            for (float i = 0; i <= gridWidth; ++i) {
-                float gridLineCenterX = fieldPosition.x + i/gridWidth * fieldSize.x;
-                Vector2 gridLinePosition = {gridLineCenterX - 1, fieldPosition.y};
-                DrawRectangleV(gridLinePosition, {2, fieldSize.y}, DARKGRAY);
-            }
-            for (float i = 0; i <= gridHeight; ++i) {
-                float gridLineCenterY = fieldPosition.y + i/gridHeight * fieldSize.y;
-                Vector2 gridLinePosition = {fieldPosition.x, gridLineCenterY - 1};
-                DrawRectangleV(gridLinePosition, {fieldSize.x, 2}, DARKGRAY);
+        // Block hold
+
+        DrawTextEx(scoreFont, "HOLD",
+            {fieldPosition.x + fieldSize.x + 5*widthScale, 4.5f*(scoreSize.y)},
+            scoreFontSize, 2, RAYWHITE);
+
+        Vector2 holdFieldSize = {4 * 5.f*heightScale, 4 * 5.f*heightScale};
+        Vector2 holdFieldPosition = {fieldPosition.x + fieldSize.x + 5*widthScale, 5.7f*(scoreSize.y)};
+        DrawRectangleV(holdFieldPosition, holdFieldSize, DARKGRAY);
+
+        auto holdArr = block.getHoldArr();
+        for (int i = 0; i < 4; ++i) {
+            for (int j = 0; j < 4; ++j) {
+                if (holdArr[i][j]) {
+                    DrawRectangle(holdFieldPosition.x + i * holdFieldSize.x/4, 
+                        holdFieldPosition.y + j * holdFieldSize.y/4, 
+                        holdFieldSize.x/4, holdFieldSize.y/4, block.idToColor(block.holdId));
+                }
             }
         }
+
+
+        // Game field grid (gridWidth x gridHeight):
+
+        auto gridColor = showGrid ? BLACK : DARKGRAY; 
+        
+        for (float i = 0; i <= gridWidth; ++i) {
+            float gridLineCenterX = fieldPosition.x + i/gridWidth * fieldSize.x;
+            Vector2 gridLinePosition = {gridLineCenterX - 1, fieldPosition.y};
+            DrawRectangleV(gridLinePosition, {2, fieldSize.y}, gridColor);
+        }
+        for (float i = 0; i <= gridHeight; ++i) {
+            float gridLineCenterY = fieldPosition.y + i/gridHeight * fieldSize.y;
+            Vector2 gridLinePosition = {fieldPosition.x, gridLineCenterY - 1};
+            DrawRectangleV(gridLinePosition, {fieldSize.x, 2}, gridColor);
+        }
+
+
+        // Hold field grid
+
+        for (float i = 0; i <= 4; ++i) {
+            float gridLineCenterX = holdFieldPosition.x + i/4 * holdFieldSize.x;
+            Vector2 gridLinePosition = {gridLineCenterX - 1, holdFieldPosition.y};
+            DrawRectangleV(gridLinePosition, {2, holdFieldSize.y}, gridColor);
+        }
+        for (float i = 0; i <= 4; ++i) {
+            float gridLineCenterY = holdFieldPosition.y + i/4 * holdFieldSize.y;
+            Vector2 gridLinePosition = {holdFieldPosition.x, gridLineCenterY - 1};
+            DrawRectangleV(gridLinePosition, {holdFieldSize.x, 2}, gridColor);
+        }
+
+
         EndDrawing();
     }
     GameDataFileW.open(GameDataFileName);
@@ -148,4 +201,10 @@ void clearRows() {
             row++;
         }
     }
+}
+
+void clearField() {
+    for (int i = 0; i < fieldArr.size(); ++i)
+        for (int j = 0; j < fieldArr[i].size(); ++j)
+            fieldArr[i][j] = 0;
 }

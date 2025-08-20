@@ -23,7 +23,17 @@ void LobbyKeyboard() {
             if (mousePosition.x >= button.x && mousePosition.y >= button.y
                 && mousePosition.x <= button.x + button.z
                 && mousePosition.y <= button.y + button.w) {
-                play_snake(i + 1);
+                switch (i) {
+                case 0:
+                    play_snake(1);
+                    break;
+                case 1:
+                    play_snake(2);
+                    break;
+                case 2:
+                    play_tetorm();
+                    break;
+                }
                 break;
             }
         }
@@ -83,49 +93,64 @@ void SnakeKeyboard() {
 
 void TetormKeyboard() {
     // Movement:
-    if (IsKeyPressed(KEY_UP) || IsKeyPressed(KEY_W)) {
-        block.rotate();
-        if (block.checkCollision()) {
-            block.x -= 1;
+    if (!tGameOver) {
+        if (IsKeyPressed(KEY_UP) || IsKeyPressed(KEY_W)) {
+            block.rotate();
             if (block.checkCollision()) {
-                block.x += 2;
+                block.x -= 1;
                 if (block.checkCollision()) {
-                    block.x -= 3;
+                    block.x += 2;
                     if (block.checkCollision()) {
-                        block.x += 4;
+                        block.x -= 3;
                         if (block.checkCollision()) {
-                            block.x -= 2;
-                            block.y += 1;
+                            block.x += 4;
                             if (block.checkCollision()) {
+                                block.x -= 2;
                                 block.y += 1;
                                 if (block.checkCollision()) {
-                                    block.y -= 2;
+                                    block.y += 1;
+                                    if (block.checkCollision()) {
+                                        block.y -= 2;
+                                    }
                                 }
                             }
                         }
                     }
                 }
             }
+            if (block.checkCollision()) block.rotateBack();
         }
-        if (block.checkCollision()) block.rotateBack();
+        if (IsKeyPressed(KEY_DOWN) || IsKeyPressed(KEY_S) || IsKeyPressedRepeat(KEY_DOWN) || IsKeyPressedRepeat(KEY_S)) {
+            if (block.isFalling) tscore++;
+            block.fall();
+        }
+        if (IsKeyPressed(KEY_LEFT) || IsKeyPressed(KEY_A) || IsKeyPressedRepeat(KEY_LEFT) || IsKeyPressedRepeat(KEY_A)) {
+            block.x -= 1;
+            if (block.checkCollision()) block.x += 1;
+            else block.prevChangeTime = GetTime();
+        }
+        if (IsKeyPressed(KEY_RIGHT) || IsKeyPressed(KEY_D) || IsKeyPressedRepeat(KEY_RIGHT) || IsKeyPressedRepeat(KEY_D)) {
+            block.x += 1;
+            if (block.checkCollision()) block.x -= 1;
+            else block.prevChangeTime = GetTime();
+        }
+        if (IsKeyPressed(KEY_SPACE)) {
+            block.shift();
+            block.sendToField();
+            block.makeNew();
+        }
+        if (IsKeyPressed(KEY_C) || IsKeyPressed(KEY_H)) {
+            if (!block.isHolded) block.hold();
+        }
     }
-    if (IsKeyPressed(KEY_DOWN) || IsKeyPressed(KEY_S) || IsKeyPressedRepeat(KEY_DOWN) || IsKeyPressedRepeat(KEY_S)) {
-        if (block.isFalling) tscore++;
-        block.fall();
+    else {
+        if (IsKeyPressed(KEY_ENTER) || IsKeyPressed(KEY_R)) {
+            clearField();
+            tscore = 0;
+            tGameOver = false;
+            block.makeNew();
+        }
     }
-    if (IsKeyPressed(KEY_LEFT) || IsKeyPressed(KEY_A) || IsKeyPressedRepeat(KEY_LEFT) || IsKeyPressedRepeat(KEY_A)) {
-        block.x -= 1;
-        if (block.checkCollision()) block.x += 1;
-        else block.prevChangeTime = GetTime();
-    }
-    if (IsKeyPressed(KEY_RIGHT) || IsKeyPressed(KEY_D) || IsKeyPressedRepeat(KEY_RIGHT) || IsKeyPressedRepeat(KEY_D)) {
-        block.x += 1;
-        if (block.checkCollision()) block.x -= 1;
-        else block.prevChangeTime = GetTime();
-    }
-    if (IsKeyPressed(KEY_SPACE)) {
-        block.shift();
-        block.sendToField();
-        block.makeNew();
-    }
+    if (IsKeyPressed(KEY_G))
+        showGrid ^= 1; 
 }

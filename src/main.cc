@@ -7,8 +7,7 @@ std::string GameDataFileName = "GameData.worm";
 int savedGameData[3];
 bool closeWindow = false;
 
-// Button: posX, posY, width, height 
-std::vector<Vector4> buttons = {{0, 0, 0, 0}, {0, 0, 0, 0}};
+std::vector<Vector4> buttons;
 
 int gridHeight = 12;
 int gridWidth = 15;
@@ -63,17 +62,35 @@ int main() {
 
         BeginDrawing(); 
         ClearBackground(BLACK);
-
-        buttons[0] = {5*widthScale, 26*heightScale, 90*widthScale, 9*heightScale};
-        buttons[1] = {5*widthScale, 36*heightScale, 90*widthScale, 9*heightScale};
-        DrawRectangle(buttons[0].x, buttons[0].y, buttons[0].z, buttons[0].w, DARKGRAY);
-        DrawRectangle(buttons[1].x, buttons[1].y, buttons[1].z, buttons[1].w, LIGHTGRAY);
+        Vector2 mousePosition = GetMousePosition(); 
+        
         DrawTextEx(FontTiny5, "Choose a game:", {5*widthScale,5*heightScale}, 10*heightScale, 2, RAYWHITE);
-        DrawTextEx(FontTiny5, "\n\n 1: Wormie 12x15", {5*widthScale,5*heightScale}, 10*heightScale, 2, RAYWHITE);
-        DrawTextEx(FontTiny5, "\n\n\n 2: Wormie 16x20", {5*widthScale,5*heightScale}, 10*heightScale, 2, DARKGRAY);
+        
+        std::vector<std::string> buttons_text = {
+            "\n\n 1: Wormie 12x15",
+            "\n\n\n 2: Wormie 16x20",
+            "\n\n\n\n 3: Tetorm",
+        };
+
+        // Button: posX, posY, width, height 
+        buttons.resize(buttons_text.size());
+
+        for (int i = 0; i < buttons.size(); ++i) {
+            buttons[i] = {5*widthScale, (26 + i*10)*heightScale, 90*widthScale, 9*heightScale};
+            // Mouse hover
+            bool ismousehover = false;
+            if (mousePosition.x >= buttons[i].x && 
+                mousePosition.y >= buttons[i].y &&
+                mousePosition.x <= buttons[i].x + buttons[i].z &&
+                mousePosition.y <= buttons[i].y + buttons[i].w)
+                    ismousehover = true;
+            
+            DrawRectangle(buttons[i].x, buttons[i].y, buttons[i].z, buttons[i].w, (ismousehover ? LIGHTGRAY : DARKGRAY));
+            DrawTextEx(FontTiny5, buttons_text[i].c_str(), {5*widthScale,5*heightScale}, 10*heightScale, 2, (ismousehover ? DARKGRAY : RAYWHITE));
+        }
+        
 
         // Mouse position circle:
-        Vector2 mousePosition = GetMousePosition(); 
         DrawCircleV(mousePosition, 1.6*heightScale, RED);
         HideCursor();
 
