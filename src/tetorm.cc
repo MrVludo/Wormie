@@ -197,7 +197,8 @@ void clearRows() {
             if (row > 0) 
                 for (int ic = 0; ic < gridWidth; ++ic) 
                     for (int shiftRow = row-1; shiftRow >= 0; --shiftRow) {
-                        fieldArr[ic][shiftRow + 1] = fieldArr[ic][shiftRow];
+                        if (shiftRow + 1 < gridHeight) 
+                            fieldArr[ic][shiftRow + 1] = fieldArr[ic][shiftRow];
                     }
             row++;
         }
