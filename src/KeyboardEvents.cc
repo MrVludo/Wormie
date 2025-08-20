@@ -148,7 +148,7 @@ void TetormKeyboard() {
             clearField();
             tscore = 0;
             tGameOver = false;
-            block.makeNew();
+            block = tBlock();
         }
     }
     if (IsKeyPressed(KEY_G))
