@@ -81,7 +81,7 @@ bool tBlock::checkCollision() {
                 return true;
             if (x + i < 0 || x + i >= gridWidth)
                 return true;
-            if (fieldArr[x+i][y+j]) 
+            if (x+i >= fieldArr.size() || y+j >= fieldArr[x+i].size() || fieldArr[x+i][y+j]) 
                 return true;
         }
     }

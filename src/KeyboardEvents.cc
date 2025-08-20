@@ -148,6 +148,7 @@ void TetormKeyboard() {
             clearField();
             tscore = 0;
             tGameOver = false;
+            startTime = GetTime();
             block = tBlock();
             block.isHolded = false;
         }

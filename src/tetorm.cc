@@ -131,14 +131,16 @@ void play_tetorm() {
         Vector2 holdFieldSize = {4 * 5.f*heightScale, 4 * 5.f*heightScale};
         Vector2 holdFieldPosition = {fieldPosition.x + fieldSize.x + 5*widthScale, 5.7f*(scoreSize.y)};
         DrawRectangleV(holdFieldPosition, holdFieldSize, DARKGRAY);
-
-        auto holdArr = block.getHoldArr();
-        for (int i = 0; i < 4; ++i) {
-            for (int j = 0; j < 4; ++j) {
-                if (holdArr[i][j]) {
-                    DrawRectangle(holdFieldPosition.x + i * holdFieldSize.x/4, 
-                        holdFieldPosition.y + j * holdFieldSize.y/4, 
-                        holdFieldSize.x/4, holdFieldSize.y/4, block.idToColor(block.holdId));
+        
+        if (block.holdId) {
+            auto holdArr = block.getHoldArr();
+            for (int i = 0; i < 4; ++i) {
+                for (int j = 0; j < 4; ++j) {
+                    if (holdArr[i][j]) {
+                        DrawRectangle(holdFieldPosition.x + i * holdFieldSize.x/4, 
+                            holdFieldPosition.y + j * holdFieldSize.y/4, 
+                            holdFieldSize.x/4, holdFieldSize.y/4, block.idToColor(block.holdId));
+                    }
                 }
             }
         }
