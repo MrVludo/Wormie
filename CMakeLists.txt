@@ -23,8 +23,3 @@ if (WIN32)
 elseif (UNIX)
     target_link_libraries(Wormie raylib GL X11 pthread dl m)
 endif()
-
-set(BUILD_SHARED_LIBS OFF)
-set(CMAKE_EXE_LINKER_FLAGS "-static")
-
-

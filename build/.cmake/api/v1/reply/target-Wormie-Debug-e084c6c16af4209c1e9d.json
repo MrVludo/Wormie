@@ -157,7 +157,7 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-static  -mwindows",
+				"fragment" : "-mwindows",
 				"role" : "flags"
 			},
 			{
