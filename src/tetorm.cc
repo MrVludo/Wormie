@@ -22,6 +22,7 @@ void play_tetorm() {
     }
     startTime = GetTime();
     block = tBlock();
+    block.isHolded = false;<
     tscore = 0;
     tGameOver = false;
     int tbestScore = savedGameData[2];
