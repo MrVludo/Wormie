@@ -6,6 +6,7 @@ Snake::Snake() {
     snake.push_back({gridWidth/2-1, gridHeight/2});
     direction = WAIT;
     facing = WAIT;
+    isAlive = true;
 }
 
 int Snake::getLenght() {
@@ -62,4 +63,5 @@ std::pair<int,int> Snake::nextMove(Direction dir) {
 void Snake::kill() {
     snake.clear();
     lenght = 0;
+    isAlive = false;
 }

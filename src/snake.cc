@@ -70,22 +70,24 @@ void play_snake(int gridR) {
             }
         }
 
-        snakeVector = snake1.getSnake();
+        if (snake1.isAlive) {
+            snakeVector = snake1.getSnake();
 
-        if (!snakeVector.empty()) {
-            DrawRectangle(fieldPosition.x + snakeVector.back().first * fieldSize.x/gridWidth,
-                fieldPosition.y + snakeVector.back().second * fieldSize.y/gridHeight,
-                fieldSize.x/gridWidth, fieldSize.y/gridHeight, snake1.headColor);
-        }
-        for (int tail = 1; tail < snake1.getLenght(); ++tail) {
-            if (tail > snakeVector.size()) break;
-            DrawRectangle(fieldPosition.x + (*(snakeVector.rbegin()+tail)).first * fieldSize.x/gridWidth,
-            fieldPosition.y + (*(snakeVector.rbegin()+tail)).second * fieldSize.y/gridHeight,
-            fieldSize.x/gridWidth, fieldSize.y/gridHeight, snake1.tailColor[tail%2]);
-        }
+            if (!snakeVector.empty()) {
+                DrawRectangle(fieldPosition.x + snakeVector.back().first * fieldSize.x/gridWidth,
+                    fieldPosition.y + snakeVector.back().second * fieldSize.y/gridHeight,
+                    fieldSize.x/gridWidth, fieldSize.y/gridHeight, snake1.headColor);
+            }
+            for (int tail = 1; tail < snake1.getLenght(); ++tail) {
+                if (tail > snakeVector.size()) break;
+                DrawRectangle(fieldPosition.x + (*(snakeVector.rbegin()+tail)).first * fieldSize.x/gridWidth,
+                fieldPosition.y + (*(snakeVector.rbegin()+tail)).second * fieldSize.y/gridHeight,
+                fieldSize.x/gridWidth, fieldSize.y/gridHeight, snake1.tailColor[tail%2]);
+            }
 
-        if (GetTime() - snake1.prevMoveTime >= 10.0f / snake1.getSpeed()) {
-            snake1.Move(snake1.getDirection());
+            if (GetTime() - snake1.prevMoveTime >= 10.0f / snake1.getSpeed()) {
+                snake1.Move(snake1.getDirection());
+            }
         }
 
         // Apple:

@@ -15,6 +15,7 @@ private:
     std::vector<std::pair<int,int>> snake;
     int lenght = 1;
 public:
+    bool isAlive;
     Color headColor = YELLOW;
     Color tailColor[2] = {BLUE, GREEN};
     double prevMoveTime;
